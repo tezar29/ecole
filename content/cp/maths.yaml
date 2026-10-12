@@ -1,0 +1,193 @@
+level: cp
+subject: maths
+
+chapters:
+  - id: nombres-20
+    title: "Les nombres jusqu'à 20"
+    lesson:
+      - text: "On compte : 11 onze, 12 douze, 13 treize, 14 quatorze, 15 quinze, 16 seize."
+      - text: "Ensuite : 17 dix-sept, 18 dix-huit, 19 dix-neuf, 20 vingt."
+      - text: "Pour trouver le nombre qui vient après, on ajoute 1."
+    exercises:
+      - type: qcm
+        text: "Quel nombre vient après 14 ?"
+        options: ["13", "15", "16"]
+        answer: "15"
+        explanation: "On compte : 13, 14, 15."
+      - type: qcm
+        text: "Quel nombre vient juste avant 20 ?"
+        options: ["19", "21", "18"]
+        answer: "19"
+        explanation: "On compte : 18, 19, 20."
+      - type: saisie
+        text: "Écris en chiffres : quinze"
+        keyboard: number
+        accepted: ["15"]
+        explanation: "Quinze s'écrit 15."
+      - type: association
+        text: "Relie chaque nombre à son écriture en lettres."
+        pairs:
+          "12": "douze"
+          "16": "seize"
+          "18": "dix-huit"
+        explanation: "12 douze, 16 seize, 18 dix-huit."
+      - type: ordre
+        text: "Range du plus petit au plus grand."
+        order: ["11", "14", "17", "20"]
+        explanation: "On range : 11, 14, 17, 20."
+      - type: qcm
+        text: "Quel nombre est le plus grand ?"
+        options: ["12", "18", "15"]
+        answer: "18"
+        explanation: "18 est plus grand que 15 et que 12."
+
+  - id: dizaine-unites
+    title: "La dizaine et les unités"
+    lesson:
+      - text: "Une dizaine, c'est un paquet de 10 unités."
+      - text: "Le nombre 13, c'est 1 dizaine et 3 unités."
+      - text: "Le nombre 20, c'est 2 dizaines et 0 unité."
+    exercises:
+      - type: qcm
+        text: "Une dizaine, c'est combien d'unités ?"
+        options: ["5", "10", "20"]
+        answer: "10"
+        explanation: "Une dizaine, c'est 10 unités."
+      - type: qcm
+        text: "Dans 14, combien y a-t-il d'unités ?"
+        options: ["1", "4", "14"]
+        answer: "4"
+        explanation: "14, c'est 1 dizaine et 4 unités."
+      - type: qcm
+        text: "Dans 17, combien y a-t-il de dizaines ?"
+        options: ["1", "7", "10"]
+        answer: "1"
+        explanation: "17, c'est 1 dizaine et 7 unités."
+      - type: saisie
+        text: "13 = 1 dizaine et … unités"
+        speak: "Treize, c'est une dizaine et combien d'unités ?"
+        keyboard: number
+        accepted: ["3"]
+        explanation: "13, c'est 1 dizaine et 3 unités."
+      - type: vrai_faux
+        text: "Dans 20, il y a 2 dizaines."
+        answer: vrai
+        explanation: "20, c'est 2 dizaines et 0 unité."
+
+  - id: addition-10
+    title: "Additionner jusqu'à 10"
+    lesson:
+      - text: "Additionner, c'est ajouter. 3 + 2 = 5."
+      - text: "Awa a 3 bananes 🍌🍌🍌. Paul lui en donne 2 🍌🍌. Elle a maintenant 3 + 2 = 5 bananes."
+        speak: "Awa a trois bananes. Paul lui en donne deux. Elle a maintenant trois plus deux égale cinq bananes."
+    exercises:
+      - type: qcm
+        text: "4 + 3 = ?"
+        options: ["6", "7", "8"]
+        answer: "7"
+        explanation: "4 + 3 = 7."
+      - type: qcm
+        text: "5 + 5 = ?"
+        options: ["9", "10", "11"]
+        answer: "10"
+        explanation: "5 + 5 = 10."
+      - type: saisie
+        text: "6 + 2 = ?"
+        keyboard: number
+        accepted: ["8"]
+        explanation: "6 + 2 = 8."
+      - type: qcm
+        text: "Ngono a 4 oranges. On lui en donne 3. Combien a-t-elle d'oranges ?"
+        options: ["6", "7", "8"]
+        answer: "7"
+        explanation: "4 + 3 = 7."
+      - type: association
+        text: "Relie chaque addition à son résultat."
+        pairs:
+          "1 + 1": "2"
+          "2 + 3": "5"
+          "4 + 4": "8"
+        explanation: "1 + 1 = 2, 2 + 3 = 5, 4 + 4 = 8."
+      - type: vrai_faux
+        text: "3 + 3 = 7"
+        answer: faux
+        explanation: "3 + 3 = 6."
+
+  - id: soustraction-10
+    title: "Soustraire jusqu'à 10"
+    lesson:
+      - text: "Soustraire, c'est enlever. 5 − 2 = 3."
+      - text: "Paul a 5 billes. Il en perd 2. Il lui en reste 5 − 2 = 3."
+        speak: "Paul a cinq billes. Il en perd deux. Il lui en reste cinq moins deux égale trois."
+    exercises:
+      - type: qcm
+        text: "7 − 3 = ?"
+        options: ["3", "4", "5"]
+        answer: "4"
+        explanation: "7 − 3 = 4."
+      - type: qcm
+        text: "10 − 5 = ?"
+        options: ["4", "5", "6"]
+        answer: "5"
+        explanation: "10 − 5 = 5."
+      - type: saisie
+        text: "9 − 4 = ?"
+        keyboard: number
+        accepted: ["5"]
+        explanation: "9 − 4 = 5."
+      - type: qcm
+        text: "Paul a 8 billes. Il en perd 3. Combien lui en reste-t-il ?"
+        options: ["5", "6", "4"]
+        answer: "5"
+        explanation: "8 − 3 = 5."
+      - type: vrai_faux
+        text: "6 − 2 = 4"
+        answer: vrai
+        explanation: "6 − 2 = 4."
+      - type: association
+        text: "Relie chaque soustraction à son résultat."
+        pairs:
+          "5 − 1": "4"
+          "6 − 3": "3"
+          "9 − 2": "7"
+        explanation: "5 − 1 = 4, 6 − 3 = 3, 9 − 2 = 7."
+
+  - id: monnaie-fcfa
+    title: "Les pièces et les billets (FCFA)"
+    lesson:
+      - text: "Au Cameroun, on utilise le franc CFA. On écrit F."
+        speak: "Au Cameroun, on utilise le franc CFA. On écrit la lettre F."
+      - text: "Il y a des pièces : 5 F, 10 F, 25 F, 50 F, 100 F et 500 F."
+      - text: "Il y a des billets : 1 000 F, 2 000 F, 5 000 F et 10 000 F."
+    exercises:
+      - type: qcm
+        text: "Quelle est la monnaie du Cameroun ?"
+        options: ["le franc CFA", "l'euro", "le dollar"]
+        answer: "le franc CFA"
+        explanation: "Au Cameroun, on paie avec des francs CFA."
+      - type: qcm
+        text: "Tu as 100 F. Un bonbon coûte 50 F. Combien te reste-t-il ?"
+        options: ["40 F", "50 F", "60 F"]
+        answer: "50 F"
+        explanation: "100 F − 50 F = 50 F."
+      - type: qcm
+        text: "Un beignet coûte 100 F. Tu en achètes 2. Combien paies-tu ?"
+        options: ["100 F", "200 F", "300 F"]
+        answer: "200 F"
+        explanation: "100 F + 100 F = 200 F."
+      - type: ordre
+        text: "Range les pièces de la plus petite à la plus grande valeur."
+        order: ["5 F", "25 F", "100 F", "500 F"]
+        explanation: "On range : 5 F, 25 F, 100 F, 500 F."
+      - type: saisie
+        text: "10 F + 10 F = … F"
+        speak: "Dix francs plus dix francs égale combien de francs ?"
+        keyboard: number
+        accepted: ["20"]
+        explanation: "10 F + 10 F = 20 F."
+      - type: vrai_faux
+        text: "Un billet de 1 000 F vaut plus qu'une pièce de 500 F."
+        answer: vrai
+        explanation: "1 000 F, c'est deux fois 500 F."
+
+

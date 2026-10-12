@@ -1,0 +1,152 @@
+level: cp
+subject: anglais
+
+chapters:
+  - id: my-name-is
+    title: "Se présenter : My name is…"
+    lesson:
+      - text: "Hello ! My name is Awa."
+        lang: en
+      - text: "My name is Awa veut dire : je m'appelle Awa."
+      - text: "What is your name ?"
+        lang: en
+      - text: "What is your name ? veut dire : comment t'appelles-tu ?"
+    exercises:
+      - type: qcm
+        text: "Comment dit-on « Je m'appelle Paul » en anglais ?"
+        options: ["My name is Paul.", "Your name is Paul.", "His name is Paul."]
+        answer: "My name is Paul."
+        explanation: "Je m'appelle Paul : My name is Paul."
+      - type: qcm
+        text: "Que veut dire « What is your name ? »"
+        options: ["Comment t'appelles-tu ?", "Quel âge as-tu ?", "Où habites-tu ?"]
+        answer: "Comment t'appelles-tu ?"
+        explanation: "What is your name ? veut dire : comment t'appelles-tu ?"
+      - type: vrai_faux
+        text: "« My name is Awa » veut dire « Je m'appelle Awa »."
+        answer: vrai
+        explanation: "My name is… veut dire : je m'appelle…"
+      - type: ordre
+        text: "Remets les mots dans l'ordre."
+        order: ["My", "name", "is", "Awa."]
+        explanation: "My name is Awa."
+      - type: association
+        text: "Relie chaque mot anglais à son sens en français."
+        pairs:
+          "Hello": "bonjour"
+          "Goodbye": "au revoir"
+          "Thank you": "merci"
+          "Please": "s'il te plaît"
+        explanation: "Hello, Goodbye, Thank you, Please."
+
+  - id: nombres-1-10
+    title: "Les nombres de 1 à 10 en anglais"
+    lesson:
+      - text: "One, two, three, four, five, six, seven, eight, nine, ten."
+        lang: en
+      - text: "Six veut dire six, seven veut dire sept, eight veut dire huit, nine veut dire neuf, ten veut dire dix."
+    exercises:
+      - type: qcm
+        text: "Comment dit-on « sept » en anglais ?"
+        options: ["seven", "six", "eight"]
+        answer: "seven"
+        explanation: "Sept se dit seven."
+      - type: qcm
+        text: "Que veut dire « ten » ?"
+        options: ["dix", "neuf", "huit"]
+        answer: "dix"
+        explanation: "Ten veut dire dix."
+      - type: association
+        text: "Relie chaque nombre anglais à son chiffre."
+        pairs:
+          "six": "6"
+          "seven": "7"
+          "eight": "8"
+          "nine": "9"
+          "ten": "10"
+        explanation: "six 6, seven 7, eight 8, nine 9, ten 10."
+      - type: ordre
+        text: "Range les nombres dans l'ordre."
+        order: ["seven", "eight", "nine", "ten"]
+        explanation: "seven, eight, nine, ten."
+      - type: saisie
+        text: "Écris le chiffre de « nine »."
+        keyboard: number
+        accepted: ["9"]
+        explanation: "Nine veut dire neuf : 9."
+      - type: vrai_faux
+        text: "« Eight » veut dire huit."
+        answer: vrai
+        explanation: "Eight veut dire huit."
+
+  - id: fruits
+    title: "Les fruits en anglais"
+    lesson:
+      - text: "🍎 apple, 🍌 banana, 🍊 orange, 🍍 pineapple, 🍇 grapes."
+        lang: en
+      - text: "Apple veut dire pomme. Banana veut dire banane. Pineapple veut dire ananas. Grapes veut dire raisins."
+    exercises:
+      - type: association
+        text: "Relie chaque fruit à son nom anglais."
+        pairs:
+          "🍎": "apple"
+          "🍌": "banana"
+          "🍊": "orange"
+          "🍍": "pineapple"
+        explanation: "apple, banana, orange, pineapple."
+      - type: qcm
+        text: "Comment dit-on « banane » en anglais ?"
+        options: ["banana", "apple", "orange"]
+        answer: "banana"
+        explanation: "Banane se dit banana."
+      - type: qcm
+        text: "Quel fruit est « pineapple » ?"
+        options: ["🍍", "🍎", "🍇"]
+        answer: "🍍"
+        explanation: "Pineapple veut dire ananas : 🍍."
+      - type: saisie
+        text: "Écris en anglais : pomme"
+        keyboard: text
+        accepted: ["apple"]
+        explanation: "Pomme se dit apple."
+      - type: vrai_faux
+        text: "« Apple » veut dire pomme."
+        answer: vrai
+        explanation: "Apple veut dire pomme."
+
+  - id: classe
+    title: "Les objets de la classe en anglais"
+    lesson:
+      - text: "📖 book, ✏️ pencil, 🎒 bag, 📏 ruler."
+        lang: en
+      - text: "Book veut dire livre. Pencil veut dire crayon. Bag veut dire sac. Ruler veut dire règle."
+    exercises:
+      - type: association
+        text: "Relie chaque objet à son nom anglais."
+        pairs:
+          "📖": "book"
+          "✏️": "pencil"
+          "🎒": "bag"
+          "📏": "ruler"
+        explanation: "book, pencil, bag, ruler."
+      - type: qcm
+        text: "Comment dit-on « livre » en anglais ?"
+        options: ["book", "bag", "ruler"]
+        answer: "book"
+        explanation: "Livre se dit book."
+      - type: qcm
+        text: "Que veut dire « pencil » ?"
+        options: ["crayon", "règle", "sac"]
+        answer: "crayon"
+        explanation: "Pencil veut dire crayon."
+      - type: vrai_faux
+        text: "« Bag » veut dire sac."
+        answer: vrai
+        explanation: "Bag veut dire sac."
+      - type: saisie
+        text: "Écris en anglais : règle"
+        keyboard: text
+        accepted: ["ruler"]
+        explanation: "Règle se dit ruler."
+
+

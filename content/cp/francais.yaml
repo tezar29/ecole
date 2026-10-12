@@ -1,0 +1,156 @@
+level: cp
+subject: francais
+
+chapters:
+  - id: syllabes-m-l-p
+    title: "Lire des syllabes : m, l, p"
+    lesson:
+      - text: "Les syllabes avec m : ma, me, mi, mo, mu."
+      - text: "Les syllabes avec l : la, le, li, lo, lu. Avec p : pa, pe, pi, po, pu."
+      - text: "Avec des syllabes, on fait des mots : ma + man = maman."
+    exercises:
+      - type: ordre
+        text: "Remets les syllabes dans l'ordre pour écrire « maman »."
+        order: ["ma", "man"]
+        explanation: "ma + man = maman."
+      - type: ordre
+        text: "Remets les syllabes dans l'ordre pour écrire « lapin »."
+        order: ["la", "pin"]
+        explanation: "la + pin = lapin."
+      - type: qcm
+        text: "Quelle syllabe entends-tu au début de « maman » ?"
+        options: ["ma", "la", "pa"]
+        answer: "ma"
+        explanation: "maman commence par « ma »."
+      - type: qcm
+        text: "Quelle syllabe entends-tu au début de « lapin » ?"
+        options: ["pa", "la", "ma"]
+        answer: "la"
+        explanation: "lapin commence par « la »."
+      - type: association
+        text: "Relie chaque dessin à son mot."
+        pairs:
+          "🐰": "lapin"
+          "🍎": "pomme"
+          "🐟": "poisson"
+        explanation: "lapin, pomme, poisson."
+      - type: saisie
+        text: "Écris la fin du mot « maman » : ma…"
+        speak: "Écris la fin du mot maman. Il commence par ma. Que faut-il écrire ensuite ?"
+        keyboard: text
+        accepted: ["man"]
+        explanation: "ma + man = maman."
+
+  - id: mots-simples
+    title: "Lire des mots simples"
+    lesson:
+      - text: "Un mot est fait de plusieurs lettres. On le lit syllabe par syllabe."
+      - text: "Quelques mots à lire : papa, maman, lune, chat, banane."
+    exercises:
+      - type: qcm
+        text: "Quel mot désigne ce dessin ? 🐱"
+        options: ["chat", "chou", "chien"]
+        answer: "chat"
+        explanation: "Le dessin est un chat."
+      - type: qcm
+        text: "Quel mot désigne ce dessin ? 🌙"
+        options: ["lune", "lame", "lutin"]
+        answer: "lune"
+        explanation: "Le dessin est la lune."
+      - type: qcm
+        text: "Quel mot désigne ce dessin ? 🍌"
+        options: ["banane", "bateau", "balle"]
+        answer: "banane"
+        explanation: "Le dessin est une banane."
+      - type: saisie
+        text: "Écris le mot de ce dessin. 🐟"
+        keyboard: text
+        accepted: ["poisson"]
+        explanation: "On écrit : poisson."
+      - type: vrai_faux
+        text: "Le mot « papa » commence par la lettre p."
+        answer: vrai
+        explanation: "papa commence par p."
+      - type: association
+        text: "Relie chaque dessin à son mot."
+        pairs:
+          "🐱": "chat"
+          "🌙": "lune"
+          "🐟": "poisson"
+        explanation: "chat, lune, poisson."
+
+  - id: phrase
+    title: "La phrase"
+    lesson:
+      - text: "Une phrase commence par une majuscule et finit par un point."
+      - text: "Exemple : Maman prépare le repas."
+    exercises:
+      - type: qcm
+        text: "Par quoi commence une phrase ?"
+        options: ["une majuscule", "un point", "une virgule"]
+        answer: "une majuscule"
+        explanation: "Une phrase commence par une majuscule."
+      - type: qcm
+        text: "Par quoi finit une phrase ?"
+        options: ["un point", "une majuscule", "un tiret"]
+        answer: "un point"
+        explanation: "Une phrase finit par un point."
+      - type: qcm
+        text: "Quelle phrase est bien écrite ?"
+        speak: "Quelle phrase est bien écrite ? Regarde la majuscule et le point."
+        options: ["Papa travaille.", "papa travaille.", "Papa travaille"]
+        answer: "Papa travaille."
+        explanation: "Il y a une majuscule au début et un point à la fin."
+      - type: ordre
+        text: "Remets les mots dans l'ordre pour faire une phrase."
+        order: ["Le", "chat", "dort."]
+        explanation: "Le chat dort."
+      - type: ordre
+        text: "Remets les mots dans l'ordre pour faire une phrase."
+        order: ["Maman", "prépare", "le", "repas."]
+        explanation: "Maman prépare le repas."
+      - type: vrai_faux
+        text: "Une phrase commence par une petite lettre."
+        answer: faux
+        explanation: "Une phrase commence par une majuscule."
+
+  - id: le-la-un-une
+    title: "Le, la, un, une"
+    lesson:
+      - text: "On dit : le garçon, la fille. Un chat, une maison."
+      - text: "« Le » et « un » vont avec les noms masculins. « La » et « une » vont avec les noms féminins."
+    exercises:
+      - type: qcm
+        text: "Complète : … maison"
+        speak: "Quel mot va devant maison : le, la ou un ?"
+        options: ["la", "le", "un"]
+        answer: "la"
+        explanation: "On dit : la maison."
+      - type: qcm
+        text: "Complète : … garçon"
+        speak: "Quel mot va devant garçon : le, la ou une ?"
+        options: ["le", "la", "une"]
+        answer: "le"
+        explanation: "On dit : le garçon."
+      - type: qcm
+        text: "Complète : … chaise"
+        speak: "Quel mot va devant chaise : une, un ou le ?"
+        options: ["une", "un", "le"]
+        answer: "une"
+        explanation: "On dit : une chaise."
+      - type: qcm
+        text: "Complète : … oiseau"
+        speak: "Quel mot va devant oiseau : un, une ou la ?"
+        options: ["un", "une", "la"]
+        answer: "un"
+        explanation: "On dit : un oiseau."
+      - type: vrai_faux
+        text: "On dit « une garçon »."
+        answer: faux
+        explanation: "On dit : un garçon."
+      - type: vrai_faux
+        text: "On dit « la fille »."
+        answer: vrai
+        explanation: "On dit : la fille."
+
+

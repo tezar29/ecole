@@ -33,8 +33,9 @@ class _LessonPageState extends State<LessonPage> {
     super.dispose();
   }
 
-  Future<void> _speak(String text) async {
+  Future<void> _speak(String text, {String language = 'fr-FR'}) async {
     await _tts.stop();
+    await _tts.setLanguage(language);
     await _tts.speak(text);
   }
 
@@ -61,6 +62,8 @@ class _LessonPageState extends State<LessonPage> {
             );
           }
           final text = (b['value'] ?? '') as String;
+          final speak = (b['speak'] ?? text) as String;
+          final language = (b['lang'] ?? 'fr-FR') as String;
           return Container(
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
@@ -79,7 +82,7 @@ class _LessonPageState extends State<LessonPage> {
                   iconSize: 36,
                   tooltip: 'Écouter',
                   icon: const Icon(Icons.volume_up),
-                  onPressed: () => _speak(text),
+                  onPressed: () => _speak(speak, language: language),
                 ),
               ],
             ),

@@ -49,8 +49,9 @@ class _QuizPageState extends ConsumerState<QuizPage> {
     super.dispose();
   }
 
-  Future<void> _speak(String text) async {
+  Future<void> _speak(String text, {String language = 'fr-FR'}) async {
     await _tts.stop();
+    await _tts.setLanguage(language);
     await _tts.speak(text);
   }
 
@@ -214,6 +215,7 @@ class _QuizPageState extends ConsumerState<QuizPage> {
   Widget _question(List<Exercise> list) {
     final e = list[_index];
     final text = (e.question['text'] ?? '') as String;
+    final language = (e.question['lang'] ?? 'fr-FR') as String;
     final explanation = e.answer['explanation'] as String?;
 
     return Padding(
@@ -250,7 +252,7 @@ class _QuizPageState extends ConsumerState<QuizPage> {
                   iconSize: 36,
                   tooltip: 'Écouter',
                   icon: const Icon(Icons.volume_up),
-                  onPressed: () => _speak(text),
+                  onPressed: () => _speak(text, language: language),
                 ),
               ],
             ),

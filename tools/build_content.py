@@ -77,6 +77,14 @@ def as_str_list(value):
     return [str(x) for x in value]
 
 
+def normalize_lang(value):
+    """Normalise les langues de contenu vers les codes attendus par le TTS."""
+    if not value:
+        return None
+    lang = str(value).strip().lower().replace('_', '-')
+    return {'fr': 'fr-FR', 'en': 'en-US'}.get(lang, str(value).strip())
+
+
 def seeded_rng(*parts):
     h = hashlib.sha1("|".join(parts).encode("utf-8")).hexdigest()
     return random.Random(int(h, 16))
@@ -105,6 +113,9 @@ def convert_exercise(ex, where, code, rep):
         rep.warn(where, "pas d'explication (champ explanation) : recommandé pour l'enfant")
     ans = {"explanation": str(explanation)} if explanation else {}
     q = {"text": text}
+    lang = normalize_lang(ex.get("lang"))
+    if lang:
+        q["lang"] = lang
     sp = speak_field(text, ex.get("speak"), where, rep)
     if sp:
         q["speak"] = sp
@@ -197,6 +208,9 @@ def convert_lesson(items, where, rep):
             if RISKY.search(text):
                 rep.warn(w, "emoji récent : risque de carré vide sur les vieux téléphones Android")
             block = {"type": "text", "value": text}
+            lang = normalize_lang(it.get("lang"))
+            if lang:
+                block["lang"] = lang
             sp = speak_field(text, it.get("speak"), w, rep)
             if sp:
                 block["speak"] = sp

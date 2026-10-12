@@ -1,0 +1,150 @@
+level: cp
+subject: sciences
+
+chapters:
+  - id: cinq-sens
+    title: "Les cinq sens et leurs organes"
+    lesson:
+      - text: "La vue, c'est voir avec les yeux. L'ouïe, c'est entendre avec les oreilles."
+      - text: "L'odorat, c'est sentir avec le nez. Le goût, c'est goûter avec la langue. Le toucher, c'est toucher avec la peau."
+    exercises:
+      - type: association
+        text: "Relie chaque sens à son organe."
+        pairs:
+          "la vue": "les yeux"
+          "l'ouïe": "les oreilles"
+          "l'odorat": "le nez"
+          "le goût": "la langue"
+          "le toucher": "la peau"
+        explanation: "Chaque sens a son organe."
+      - type: qcm
+        text: "Quel sens utilise-t-on pour reconnaître le bruit d'un tambour ?"
+        options: ["l'ouïe", "la vue", "le goût"]
+        answer: "l'ouïe"
+        explanation: "On entend le tambour avec les oreilles : c'est l'ouïe."
+      - type: qcm
+        text: "Avec quel sens sent-on que l'eau est froide ?"
+        options: ["le toucher", "l'odorat", "la vue"]
+        answer: "le toucher"
+        explanation: "On sent le froid avec la peau : c'est le toucher."
+      - type: qcm
+        text: "Quel sens utilise-t-on pour goûter une mangue ?"
+        options: ["le goût", "la vue", "l'ouïe"]
+        answer: "le goût"
+        explanation: "On goûte avec la langue : c'est le goût."
+      - type: vrai_faux
+        text: "Le nez sert à sentir les odeurs."
+        answer: vrai
+        explanation: "Le nez sert à sentir : c'est l'odorat."
+
+  - id: animaux-domestiques-sauvages
+    title: "Animaux domestiques et animaux sauvages"
+    lesson:
+      - text: "Les animaux domestiques vivent près des hommes : le chien, le chat, la poule, la chèvre, le mouton."
+      - text: "Les animaux sauvages vivent dans la nature : l'éléphant, le singe, le lion, le serpent."
+    exercises:
+      - type: qcm
+        text: "Quel animal est domestique ?"
+        options: ["la poule", "l'éléphant", "le serpent"]
+        answer: "la poule"
+        explanation: "La poule vit près des hommes."
+      - type: qcm
+        text: "Quel animal est sauvage ?"
+        options: ["le singe", "le chat", "le mouton"]
+        answer: "le singe"
+        explanation: "Le singe vit dans la nature."
+      - type: association
+        text: "Relie chaque animal à son milieu de vie."
+        pairs:
+          "le chien": "à la maison"
+          "la chèvre": "au village"
+          "l'éléphant": "dans la forêt"
+          "le poisson": "dans l'eau"
+        explanation: "Chaque animal vit dans son milieu."
+      - type: qcm
+        text: "Que donne la poule ?"
+        options: ["des œufs", "du lait", "de la laine"]
+        answer: "des œufs"
+        explanation: "La poule pond des œufs."
+      - type: vrai_faux
+        text: "Un animal domestique vit près des hommes."
+        answer: vrai
+        explanation: "Domestique veut dire qui vit près des hommes."
+      - type: vrai_faux
+        text: "Le lion est un animal domestique."
+        answer: faux
+        explanation: "Le lion est un animal sauvage."
+
+  - id: parties-plante
+    title: "Les parties d'une plante"
+    lesson:
+      - text: "La racine est dans la terre : elle boit l'eau. La tige porte les feuilles et les fleurs."
+      - text: "La fleur devient un fruit. Le fruit contient les graines."
+    exercises:
+      - type: qcm
+        text: "Quelle partie de la plante est dans la terre ?"
+        options: ["la racine", "la feuille", "la fleur"]
+        answer: "la racine"
+        explanation: "La racine est dans la terre."
+      - type: qcm
+        text: "Quelle partie porte les feuilles ?"
+        options: ["la tige", "la racine", "le fruit"]
+        answer: "la tige"
+        explanation: "La tige porte les feuilles et les fleurs."
+      - type: association
+        text: "Relie chaque partie à son rôle."
+        pairs:
+          "la racine": "boit l'eau"
+          "la tige": "porte les feuilles"
+          "la fleur": "devient un fruit"
+          "le fruit": "contient les graines"
+        explanation: "Chaque partie de la plante a son rôle."
+      - type: vrai_faux
+        text: "Le fruit contient les graines."
+        answer: vrai
+        explanation: "Dans le fruit, il y a les graines."
+      - type: vrai_faux
+        text: "Les racines sont au-dessus de la terre."
+        answer: faux
+        explanation: "Les racines sont dans la terre."
+      - type: ordre
+        text: "Range les parties de la plante, de la terre vers le haut."
+        order: ["la racine", "la tige", "la feuille"]
+        explanation: "La racine est en bas, la feuille en haut."
+
+  - id: hygiene
+    title: "L'hygiène : se laver les mains"
+    lesson:
+      - text: "On se lave les mains avec de l'eau et du savon."
+      - text: "On se lave les mains avant de manger et après les toilettes."
+      - text: "On se brosse les dents le matin et le soir."
+    exercises:
+      - type: qcm
+        text: "Avec quoi se lave-t-on les mains ?"
+        options: ["de l'eau et du savon", "du sable", "de l'huile"]
+        answer: "de l'eau et du savon"
+        explanation: "On utilise de l'eau propre et du savon."
+      - type: qcm
+        text: "Quand se lave-t-on les mains ?"
+        options: ["avant de manger et après les toilettes", "seulement le dimanche", "jamais"]
+        answer: "avant de manger et après les toilettes"
+        explanation: "Se laver les mains évite de tomber malade."
+      - type: qcm
+        text: "Que fait le savon ?"
+        options: ["il enlève la saleté et les microbes", "il donne faim", "il fait dormir"]
+        answer: "il enlève la saleté et les microbes"
+        explanation: "Le savon nettoie les mains."
+      - type: ordre
+        text: "Remets les gestes dans l'ordre pour se laver les mains."
+        order: ["Mouiller les mains", "Mettre du savon", "Frotter les mains", "Rincer à l'eau"]
+        explanation: "On mouille, on savonne, on frotte, on rince."
+      - type: vrai_faux
+        text: "Il faut se brosser les dents le matin et le soir."
+        answer: vrai
+        explanation: "On se brosse les dents deux fois par jour."
+      - type: vrai_faux
+        text: "On peut boire l'eau sale d'une flaque."
+        answer: faux
+        explanation: "L'eau sale rend malade. On boit de l'eau propre."
+
+
