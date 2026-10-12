@@ -1,0 +1,77 @@
+# ============================================================
+#  MODÈLE DE FICHIER DE CONTENU
+#  Copie ce fichier dans  content/<classe>/<matiere>.yaml
+#  (ex. content/ce1/maths.yaml) et remplace les exemples.
+#  Un seul fichier par classe et par matière.
+# ============================================================
+
+level: ce1          # sil | cp | ce1 | ce2 | cm1 | cm2
+subject: maths      # maths | francais | anglais | sciences | informatique
+
+chapters:
+  - id: addition-sans-retenue        # identifiant STABLE : minuscules, chiffres, tirets.
+                                     # Ne le change plus après la publication.
+    title: "Additionner sans retenue"
+    # published: false               # décommente pour garder le chapitre en brouillon
+
+    # ---------- La leçon : une suite de blocs (un bouton 🔊 par bloc) ----------
+    lesson:
+      - text: "Additionner, c'est ajouter. 12 + 3 = 15."
+      - text: "Awa a 12 billes. Paul lui en donne 3 🔵🔵🔵. Elle en a maintenant 15."
+        speak: "Awa a douze billes. Paul lui en donne trois. Elle en a maintenant quinze."
+      # - image: "https://exemple.org/schema.png"      # image (https obligatoire)
+
+    # ---------- Les exercices (3 minimum, 4 à 6 recommandés) ----------
+    exercises:
+
+      # 1) QCM : 2 à 4 options. 'answer' = le texte EXACT de la bonne option.
+      #    L'ordre des options est mélangé automatiquement (shuffle: false pour l'éviter).
+      - type: qcm
+        text: "12 + 5 = ?"
+        options: ["16", "17", "18"]
+        answer: "17"
+        explanation: "12 + 5 = 17."
+
+      # 2) VRAI / FAUX : answer = vrai ou faux
+      - type: vrai_faux
+        text: "20 + 4 = 25"
+        answer: faux
+        explanation: "20 + 4 = 24."
+
+      # 3) ASSOCIATION : 2 à 5 paires  gauche: droite  (les droites sont mélangées)
+      - type: association
+        text: "Relie chaque addition à son résultat."
+        pairs:
+          "10 + 1": "11"
+          "10 + 5": "15"
+          "10 + 9": "19"
+        explanation: "On ajoute les unités au 10."
+
+      # 4) SAISIE : l'élève écrit la réponse.
+      #    keyboard: number (clavier de chiffres, réponses en chiffres) ou text.
+      #    accepted : toutes les réponses acceptées (majuscules et accents ignorés).
+      - type: saisie
+        text: "Écris le résultat : 14 + 3"
+        keyboard: number
+        accepted: ["17"]
+        explanation: "14 + 3 = 17."
+
+      # 5) ORDRE (glisser-déposer) : écris les éléments dans le BON ordre ;
+      #    l'application les mélange toute seule.
+      - type: ordre
+        text: "Range du plus petit au plus grand."
+        order: ["11", "13", "15", "19"]
+        explanation: "On range : 11, 13, 15, 19."
+
+# ------------------------------------------------------------
+#  CONSEILS
+#  • Phrases courtes, mots simples ; une seule idée par exercice.
+#  • speak: sert à améliorer la lecture à voix haute. Sans lui, les emojis sont
+#    retirés et + − × = sont lus « plus, moins, fois, égale ». Si la consigne contient
+#    « … », écris toujours un speak.
+#  • Emojis : choisis des emojis anciens et courants (🍎 🍌 🍊 ⚽ 🐱 🐟 🌸). Les emojis très
+#    récents (🥭 🦶 🟦…) s'affichent en carré vide sur les vieux téléphones Android.
+#  • Après chaque modification :  python tools/build_content.py
+# ------------------------------------------------------------
+
+

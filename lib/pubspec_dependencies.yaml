@@ -1,0 +1,45 @@
+# À fusionner dans ton pubspec.yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0
+  flutter_riverpod: ^2.5.0
+  go_router: ^14.0.0
+  flutter_tts: ^4.0.0
+  audioplayers: ^6.0.0
+  hive_flutter: ^1.1.0
+  lottie: ^3.1.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito-Black.ttf
+          weight: 900
+    - family: DMSans
+      fonts:
+        - asset: assets/fonts/DMSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/DMSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/DMSans-Bold.ttf
+          weight: 700
+
+# Icône de l'application (logo sur fond ivoire) :
+# lancer ensuite : dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#FFF4D6"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"

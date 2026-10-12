@@ -1,0 +1,164 @@
+level: sil
+subject: maths
+
+chapters:
+  - id: chiffres-0-5
+    title: "Les chiffres de 0 à 5"
+    lesson:
+      - text: "Voici les chiffres : 0, 1, 2, 3, 4, 5."
+      - text: "1 🍎  Un, c'est une seule pomme."
+        speak: "Un, c'est une seule pomme."
+      - text: "2 🍎🍎  Deux, c'est une paire."
+        speak: "Deux, c'est une paire."
+      - text: "3 🍎🍎🍎  Trois."
+        speak: "Trois pommes."
+      - text: "4 🍎🍎🍎🍎  Quatre."
+        speak: "Quatre pommes."
+      - text: "5 🍎🍎🍎🍎🍎  Cinq."
+        speak: "Cinq pommes."
+      - text: "0  Zéro, c'est quand il n'y a rien du tout."
+        speak: "Zéro, c'est quand il n'y a rien du tout."
+    exercises:
+      - type: qcm
+        text: "Combien y a-t-il de bananes ? 🍌🍌🍌"
+        options: ["2", "3", "4"]
+        answer: "3"
+        explanation: "Il y a 3 bananes : 1, 2, 3."
+      - type: qcm
+        text: "Combien y a-t-il d'ananas ? 🍍🍍🍍🍍🍍"
+        options: ["4", "5", "3"]
+        answer: "5"
+        explanation: "Il y a 5 ananas : 1, 2, 3, 4, 5."
+      - type: association
+        text: "Relie chaque chiffre au bon nombre de pommes."
+        pairs:
+          "1": "🍎"
+          "2": "🍎🍎"
+          "3": "🍎🍎🍎"
+        explanation: "Le chiffre dit combien il y a de pommes."
+      - type: ordre
+        text: "Mets les chiffres dans l'ordre, du plus petit au plus grand."
+        order: ["1", "2", "3", "4"]
+        explanation: "On compte : 1, 2, 3, 4."
+      - type: vrai_faux
+        text: "Zéro, c'est quand il n'y a rien du tout."
+        answer: vrai
+        explanation: "Zéro veut dire : il n'y en a pas."
+      - type: saisie
+        text: "Combien d'oranges ? Écris le chiffre. 🍊🍊🍊🍊"
+        keyboard: number
+        accepted: ["4"]
+        explanation: "Il y a 4 oranges."
+
+  - id: chiffres-6-10
+    title: "Les chiffres de 6 à 10"
+    lesson:
+      - text: "Après 5, on compte : 6, 7, 8, 9, 10."
+      - text: "Dix, c'est comme les dix doigts de tes deux mains ✋✋"
+      - text: "Plus on avance dans les chiffres, plus il y a d'objets."
+    exercises:
+      - type: qcm
+        text: "Quel chiffre vient après 6 ?"
+        options: ["5", "7", "8"]
+        answer: "7"
+        explanation: "On compte : 5, 6, 7."
+      - type: qcm
+        text: "Combien de doigts as-tu sur tes deux mains ?"
+        options: ["5", "10", "8"]
+        answer: "10"
+        explanation: "5 doigts et 5 doigts, ça fait 10 doigts."
+      - type: qcm
+        text: "Combien y a-t-il de raisins ? 🍇🍇🍇🍇🍇🍇🍇🍇"
+        options: ["7", "8", "9"]
+        answer: "8"
+        explanation: "Il y a 8 raisins."
+      - type: ordre
+        text: "Remets les chiffres dans l'ordre."
+        order: ["6", "7", "8", "9", "10"]
+        explanation: "On compte : 6, 7, 8, 9, 10."
+      - type: saisie
+        text: "Quel chiffre vient juste avant 10 ? Écris-le."
+        keyboard: number
+        accepted: ["9"]
+        explanation: "Avant 10, il y a 9."
+      - type: vrai_faux
+        text: "8 vient après 7."
+        answer: vrai
+        explanation: "On compte : 7, 8."
+
+  - id: plus-moins-autant
+    title: "Plus, moins, autant"
+    lesson:
+      - text: "Plus : 🍌🍌🍌🍌 est plus que 🍌🍌."
+        speak: "Plus. Quatre bananes, c'est plus que deux bananes."
+      - text: "Moins : 🍌🍌 est moins que 🍌🍌🍌🍌."
+        speak: "Moins. Deux bananes, c'est moins que quatre bananes."
+      - text: "Autant : 🍌🍌🍌 et 🍌🍌🍌, c'est autant."
+        speak: "Autant. Trois bananes et trois bananes, c'est autant."
+    exercises:
+      - type: qcm
+        text: "Où y a-t-il le plus de ballons ?"
+        options: ["⚽⚽", "⚽⚽⚽⚽"]
+        answer: "⚽⚽⚽⚽"
+        explanation: "4 ballons, c'est plus que 2 ballons."
+      - type: qcm
+        text: "Où y a-t-il le moins de fleurs ?"
+        options: ["🌸🌸🌸🌸🌸", "🌸🌸"]
+        answer: "🌸🌸"
+        explanation: "2 fleurs, c'est moins que 5 fleurs."
+      - type: vrai_faux
+        text: "4 est plus grand que 2."
+        answer: vrai
+        explanation: "On compte : 2, 3, 4. Donc 4 est plus grand."
+      - type: qcm
+        text: "Quel nombre est le plus petit ?"
+        options: ["5", "2", "4"]
+        answer: "2"
+        explanation: "2 est le plus petit des trois."
+      - type: qcm
+        text: "Awa a 3 mangues et Paul a 3 mangues. Ont-ils plus, moins ou autant ?"
+        options: ["Plus", "Moins", "Autant"]
+        answer: "Autant"
+        explanation: "3 et 3, c'est autant."
+
+  - id: formes
+    title: "Les formes : rond, carré, triangle"
+    lesson:
+      - text: "Un rond 🔴 comme le soleil."
+      - text: "Un carré ⬛ a quatre côtés pareils."
+      - text: "Un triangle 🔺 a trois côtés."
+    exercises:
+      - type: qcm
+        text: "Quelle forme est un rond ?"
+        options: ["🔴", "⬛", "🔺"]
+        answer: "🔴"
+        explanation: "Le rond est tout rond, sans coin."
+      - type: qcm
+        text: "Quelle forme est un carré ?"
+        options: ["🔴", "⬛", "🔺"]
+        answer: "⬛"
+        explanation: "Le carré a quatre côtés pareils."
+      - type: qcm
+        text: "Quelle forme est un triangle ?"
+        options: ["🔴", "⬛", "🔺"]
+        answer: "🔺"
+        explanation: "Le triangle a trois côtés."
+      - type: association
+        text: "Relie chaque forme à son nom."
+        pairs:
+          "🔴": "rond"
+          "⬛": "carré"
+          "🔺": "triangle"
+        explanation: "Rond, carré, triangle."
+      - type: qcm
+        text: "Le soleil ressemble à un…"
+        speak: "Le soleil ressemble à quelle forme ?"
+        options: ["rond", "carré", "triangle"]
+        answer: "rond"
+        explanation: "Le soleil est tout rond."
+      - type: vrai_faux
+        text: "Un triangle a trois côtés."
+        answer: vrai
+        explanation: "Tri veut dire trois."
+
+

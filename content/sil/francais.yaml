@@ -1,0 +1,151 @@
+level: sil
+subject: francais
+
+chapters:
+  - id: voyelles
+    title: "Les voyelles"
+    lesson:
+      - text: "Il y a des voyelles : a, e, i, o, u."
+      - text: "On entend « a » au début de ananas 🍍."
+      - text: "On entend « i » au début de igname."
+      - text: "On entend « o » au début de orange 🍊."
+    exercises:
+      - type: qcm
+        text: "Quelle lettre est une voyelle ?"
+        options: ["b", "a", "m"]
+        answer: "a"
+        explanation: "a, e, i, o, u sont les voyelles."
+      - type: qcm
+        text: "Par quelle voyelle commence le mot « ananas » ?"
+        options: ["a", "i", "o"]
+        answer: "a"
+        explanation: "ananas commence par a."
+      - type: qcm
+        text: "Quelle voyelle entends-tu au début de « orange » ?"
+        options: ["o", "a", "e"]
+        answer: "o"
+        explanation: "orange commence par o."
+      - type: association
+        text: "Relie chaque voyelle à un mot qui commence par cette lettre."
+        pairs:
+          "a": "ananas"
+          "i": "igname"
+          "o": "orange"
+          "u": "usine"
+        explanation: "ananas, igname, orange, usine."
+      - type: vrai_faux
+        text: "La lettre « m » est une voyelle."
+        answer: faux
+        explanation: "m n'est pas une voyelle. Les voyelles sont a, e, i, o, u."
+
+  - id: sons-a-i-o
+    title: "Écouter les sons a, i, o"
+    lesson:
+      - text: "Chaque mot est fait de sons. Écoute bien !"
+      - text: "Dans « rat », on entend « a »."
+      - text: "Dans « lit », on entend « i »."
+      - text: "Dans « pot », on entend « o »."
+    exercises:
+      - type: qcm
+        text: "Dans quel mot entends-tu le son « a » ?"
+        options: ["rat", "lit", "pot"]
+        answer: "rat"
+        explanation: "Dans « rat », on entend « a »."
+      - type: qcm
+        text: "Dans quel mot entends-tu le son « i » ?"
+        options: ["lit", "mur", "sac"]
+        answer: "lit"
+        explanation: "Dans « lit », on entend « i »."
+      - type: qcm
+        text: "Dans quel mot entends-tu le son « o » ?"
+        options: ["pot", "riz", "chat"]
+        answer: "pot"
+        explanation: "Dans « pot », on entend « o »."
+      - type: association
+        text: "Relie chaque dessin à son nom."
+        pairs:
+          "🐱": "chat"
+          "🐟": "poisson"
+          "🍌": "banane"
+        explanation: "chat, poisson, banane."
+      - type: saisie
+        text: "Écris la première lettre du mot « banane »."
+        keyboard: text
+        accepted: ["b"]
+        explanation: "banane commence par la lettre b."
+
+  - id: corps
+    title: "Les parties du corps"
+    lesson:
+      - text: "Voici ton corps : la tête, les bras, les jambes."
+      - text: "Sur la tête, il y a les yeux, le nez, la bouche et les oreilles."
+      - text: "Au bout des bras, il y a les mains. Au bout des jambes, il y a les pieds."
+    exercises:
+      - type: qcm
+        text: "Avec quoi voit-on ?"
+        options: ["les yeux", "les oreilles", "le nez"]
+        answer: "les yeux"
+        explanation: "On voit avec les yeux."
+      - type: qcm
+        text: "Avec quoi entend-on ?"
+        options: ["les oreilles", "les yeux", "la bouche"]
+        answer: "les oreilles"
+        explanation: "On entend avec les oreilles."
+      - type: qcm
+        text: "Avec quoi sent-on les odeurs ?"
+        options: ["le nez", "les mains", "les pieds"]
+        answer: "le nez"
+        explanation: "On sent les odeurs avec le nez."
+      - type: qcm
+        text: "Avec quoi marche-t-on ?"
+        options: ["les jambes", "les bras", "la tête"]
+        answer: "les jambes"
+        explanation: "On marche avec les jambes."
+      - type: association
+        text: "Relie chaque partie du corps à ce qu'elle fait."
+        pairs:
+          "les yeux": "voir"
+          "les oreilles": "entendre"
+          "la bouche": "manger"
+          "les mains": "toucher"
+        explanation: "Chaque partie du corps a son rôle."
+      - type: vrai_faux
+        text: "On a deux yeux."
+        answer: vrai
+        explanation: "On a deux yeux, un à gauche et un à droite."
+
+  - id: famille
+    title: "La famille"
+    lesson:
+      - text: "Dans la famille, il y a papa et maman : ce sont les parents."
+      - text: "Le frère est un garçon. La sœur est une fille."
+      - text: "Le papa de papa ou de maman, c'est le grand-père. La maman de papa ou de maman, c'est la grand-mère."
+    exercises:
+      - type: qcm
+        text: "Le garçon qui a les mêmes parents que moi, c'est mon…"
+        speak: "Le garçon qui a les mêmes parents que moi, c'est mon quoi ?"
+        options: ["frère", "oncle", "cousin"]
+        answer: "frère"
+        explanation: "C'est mon frère."
+      - type: qcm
+        text: "La fille qui a les mêmes parents que moi, c'est ma…"
+        speak: "La fille qui a les mêmes parents que moi, c'est ma quoi ?"
+        options: ["sœur", "tante", "voisine"]
+        answer: "sœur"
+        explanation: "C'est ma sœur."
+      - type: qcm
+        text: "La maman de ma maman, c'est ma…"
+        speak: "La maman de ma maman, c'est ma quoi ?"
+        options: ["grand-mère", "sœur", "tante"]
+        answer: "grand-mère"
+        explanation: "C'est ma grand-mère."
+      - type: vrai_faux
+        text: "Papa et maman sont mes parents."
+        answer: vrai
+        explanation: "Papa et maman sont les parents."
+      - type: ordre
+        text: "Range de la personne la plus jeune à la plus âgée."
+        order: ["le bébé", "le grand frère", "le grand-père"]
+        explanation: "Le bébé est le plus jeune, le grand-père le plus âgé."
+
+

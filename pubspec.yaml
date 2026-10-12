@@ -1,0 +1,58 @@
+name: ecole
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0
+  flutter_riverpod: ^2.5.0     # gestion d'état
+  go_router: ^14.0.0           # navigation
+  flutter_tts: ^4.0.0          # lecture vocale des consignes
+  audioplayers: ^6.0.0         # sons et récompenses
+  hive_flutter: ^1.1.0         # cache hors ligne
+  lottie: ^3.1.0               # animations (mascotte, étoiles)
+  connectivity_plus: ^6.0.0       # détection du réseau
+  cached_network_image: ^3.4.0    # images de leçons en cache disque
+  flutter_cache_manager: ^3.4.0   # téléchargement des images pour le hors-ligne
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/static/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/static/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/static/Nunito-Black.ttf
+          weight: 900
+    - family: DMSans
+      fonts:
+        - asset: assets/fonts/static/DMSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/static/DMSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/static/DMSans-Bold.ttf
+          weight: 700
+
+# Icône de l'application (logo sur fond ivoire) :
+# lancer ensuite : dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#FFF4D6"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
