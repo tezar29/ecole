@@ -1,0 +1,63 @@
+level: sil
+subject: informatique
+
+chapters:
+  - id: telephone-tablette
+    title: "Le téléphone et la tablette"
+    lesson:
+      - text: "Un téléphone 📱 et une tablette sont des appareils avec un écran."
+      - text: "On touche l'écran avec le doigt."
+      - text: "On prend soin de l'appareil : on a les mains propres et on ne le jette pas."
+    exercises:
+      - type: qcm
+        text: "Avec quoi touche-t-on l'écran ?"
+        options: ["le doigt", "le pied", "la tête"]
+        answer: "le doigt"
+        explanation: "On touche l'écran avec le doigt."
+      - type: qcm
+        text: "Quel objet a un écran ?"
+        options: ["📱", "🍌", "⚽"]
+        answer: "📱"
+        explanation: "Le téléphone a un écran."
+      - type: vrai_faux
+        text: "On peut jeter le téléphone par terre."
+        answer: faux
+        explanation: "On prend soin de l'appareil."
+      - type: vrai_faux
+        text: "Une tablette a un écran."
+        answer: vrai
+        explanation: "La tablette a un grand écran."
+      - type: qcm
+        text: "Pour prendre soin de la tablette, on a les mains…"
+        speak: "Pour prendre soin de la tablette, comment doivent être tes mains ?"
+        options: ["propres", "sales", "mouillées"]
+        answer: "propres"
+        explanation: "On a les mains propres."
+
+  - id: gestes-ecran
+    title: "Toucher, glisser, appuyer"
+    lesson:
+      - text: "Toucher : on pose le doigt sur l'écran."
+      - text: "Glisser : on déplace le doigt sur l'écran."
+      - text: "Appuyer sur un bouton ouvre une application."
+    exercises:
+      - type: qcm
+        text: "Que fait-on pour déplacer une image sur l'écran ?"
+        options: ["on glisse le doigt", "on crie", "on ferme les yeux"]
+        answer: "on glisse le doigt"
+        explanation: "On glisse le doigt sur l'écran."
+      - type: association
+        text: "Relie chaque geste à ce qu'on fait."
+        pairs:
+          "toucher": "poser le doigt"
+          "glisser": "déplacer le doigt"
+        explanation: "Toucher, c'est poser le doigt. Glisser, c'est le déplacer."
+      - type: vrai_faux
+        text: "Pour ouvrir une application, on appuie sur son bouton."
+        answer: vrai
+        explanation: "On appuie sur le bouton de l'application."
+      - type: qcm
+        text: "Quel geste permet de faire défiler les pages ?"
+        options: ["glisser le doigt", "donner un coup", "souffler dessus"]
+        answer: "glisser le doigt"
+        explanation: "On glisse le doigt pour faire défiler."

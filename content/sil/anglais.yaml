@@ -1,0 +1,197 @@
+level: sil
+subject: anglais
+
+chapters:
+  - id: hello
+    title: "Hello ! Saluer en anglais"
+    lesson:
+      - text: "Hello ! Hi ! Goodbye !"
+        lang: en
+      - text: "Hello veut dire bonjour. Goodbye veut dire au revoir."
+      - text: "Thank you ! Yes ! No !"
+        lang: en
+      - text: "Thank you veut dire merci. Yes veut dire oui. No veut dire non."
+    exercises:
+      - type: qcm
+        text: "Comment dit-on « bonjour » en anglais ?"
+        options: ["Hello", "Goodbye", "Thank you"]
+        answer: "Hello"
+        explanation: "Bonjour se dit Hello."
+      - type: qcm
+        text: "Que veut dire « Goodbye » ?"
+        options: ["Au revoir", "Bonjour", "Merci"]
+        answer: "Au revoir"
+        explanation: "Goodbye veut dire au revoir."
+      - type: association
+        text: "Relie chaque mot anglais à son sens en français."
+        pairs:
+          "Hello": "bonjour"
+          "Goodbye": "au revoir"
+          "Thank you": "merci"
+          "Yes": "oui"
+        explanation: "Hello, Goodbye, Thank you, Yes."
+      - type: vrai_faux
+        text: "« Yes » veut dire oui."
+        answer: vrai
+        explanation: "Yes veut dire oui."
+      - type: saisie
+        text: "Écris en anglais : bonjour"
+        keyboard: text
+        accepted: ["hello"]
+        explanation: "Bonjour se dit Hello."
+
+  - id: couleurs
+    title: "Les couleurs en anglais"
+    lesson:
+      - text: "❤️ red"
+        lang: en
+      - text: "💙 blue"
+        lang: en
+      - text: "💚 green"
+        lang: en
+      - text: "💛 yellow"
+        lang: en
+      - text: "Red veut dire rouge, blue veut dire bleu, green veut dire vert, yellow veut dire jaune."
+    exercises:
+      - type: qcm
+        text: "Quelle couleur est « red » ?"
+        options: ["rouge", "bleu", "vert"]
+        answer: "rouge"
+        explanation: "Red veut dire rouge."
+      - type: qcm
+        text: "Comment dit-on « bleu » en anglais ?"
+        options: ["blue", "red", "green"]
+        answer: "blue"
+        explanation: "Bleu se dit blue."
+      - type: qcm
+        text: "De quelle couleur est ce cœur en anglais ? 💛"
+        options: ["yellow", "red", "blue"]
+        answer: "yellow"
+        explanation: "Ce cœur est jaune : yellow."
+      - type: association
+        text: "Relie chaque couleur anglaise à sa couleur en français."
+        pairs:
+          "red": "rouge"
+          "blue": "bleu"
+          "green": "vert"
+          "yellow": "jaune"
+        explanation: "red, blue, green, yellow."
+      - type: vrai_faux
+        text: "« Green » veut dire vert."
+        answer: vrai
+        explanation: "Green veut dire vert."
+
+  - id: nombres-1-5
+    title: "Les nombres de 1 à 5 en anglais"
+    lesson:
+      - text: "One, two, three, four, five."
+        lang: en
+      - text: "One veut dire un. Two veut dire deux. Three veut dire trois. Four veut dire quatre. Five veut dire cinq."
+    exercises:
+      - type: qcm
+        text: "Comment dit-on « trois » en anglais ?"
+        options: ["three", "two", "four"]
+        answer: "three"
+        explanation: "Trois se dit three."
+      - type: qcm
+        text: "Que veut dire « five » ?"
+        options: ["cinq", "quatre", "deux"]
+        answer: "cinq"
+        explanation: "Five veut dire cinq."
+      - type: association
+        text: "Relie chaque nombre anglais à son chiffre."
+        pairs:
+          "one": "1"
+          "two": "2"
+          "three": "3"
+          "four": "4"
+        explanation: "one 1, two 2, three 3, four 4."
+      - type: saisie
+        text: "Écris le chiffre de « two »."
+        keyboard: number
+        accepted: ["2"]
+        explanation: "Two veut dire deux : 2."
+      - type: ordre
+        text: "Range les nombres dans l'ordre."
+        order: ["one", "two", "three"]
+        explanation: "one, two, three."
+      - type: vrai_faux
+        text: "« Four » veut dire quatre."
+        answer: vrai
+        explanation: "Four veut dire quatre."
+
+  - id: animaux
+    title: "Les animaux en anglais"
+    lesson:
+      - text: "🐱 cat, 🐶 dog, 🐟 fish, 🐦 bird."
+        lang: en
+      - text: "Cat veut dire chat. Dog veut dire chien. Fish veut dire poisson. Bird veut dire oiseau."
+    exercises:
+      - type: qcm
+        text: "Comment dit-on « chat » en anglais ?"
+        options: ["cat", "dog", "fish"]
+        answer: "cat"
+        explanation: "Chat se dit cat."
+      - type: qcm
+        text: "Quel animal est « dog » ?"
+        options: ["🐱", "🐶", "🐟"]
+        answer: "🐶"
+        explanation: "Dog veut dire chien : 🐶."
+      - type: association
+        text: "Relie chaque animal à son nom anglais."
+        pairs:
+          "🐱": "cat"
+          "🐶": "dog"
+          "🐟": "fish"
+          "🐦": "bird"
+        explanation: "cat, dog, fish, bird."
+      - type: vrai_faux
+        text: "« Fish » veut dire poisson."
+        answer: vrai
+        explanation: "Fish veut dire poisson."
+      - type: saisie
+        text: "Écris en anglais : chien"
+        keyboard: text
+        accepted: ["dog"]
+        explanation: "Chien se dit dog."
+
+  - id: fruits
+    title: "Les fruits en anglais"
+    lesson:
+      - text: "🍎 apple, 🍌 banana, 🍊 orange, 🍍 pineapple."
+        lang: en
+      - text: "Apple veut dire pomme. Banana veut dire banane."
+      - text: "Orange veut dire orange. Pineapple veut dire ananas."
+    exercises:
+      - type: association
+        text: "Relie chaque fruit à son nom anglais."
+        pairs:
+          "🍎": "apple"
+          "🍌": "banana"
+          "🍊": "orange"
+          "🍍": "pineapple"
+        explanation: "apple, banana, orange, pineapple."
+      - type: qcm
+        text: "Comment dit-on « banane » en anglais ?"
+        options: ["banana", "apple", "orange"]
+        answer: "banana"
+        explanation: "Banane se dit banana."
+      - type: qcm
+        text: "Que veut dire « apple » ?"
+        options: ["pomme", "ananas", "orange"]
+        answer: "pomme"
+        explanation: "Apple veut dire pomme."
+      - type: qcm
+        text: "Quel fruit est 🍊 ?"
+        options: ["orange", "banana", "pineapple"]
+        answer: "orange"
+        explanation: "🍊 est une orange : orange."
+      - type: saisie
+        text: "Écris en anglais : pomme"
+        keyboard: text
+        accepted: ["apple"]
+        explanation: "Pomme se dit apple."
+      - type: vrai_faux
+        text: "« Pineapple » veut dire ananas."
+        answer: vrai
+        explanation: "Pineapple veut dire ananas."

@@ -148,4 +148,82 @@ chapters:
         order: ["le bébé", "le grand frère", "le grand-père"]
         explanation: "Le bébé est le plus jeune, le grand-père le plus âgé."
 
+  - id: mon-prenom
+    title: "Mon prénom"
+    lesson:
+      - text: "Chacun a un prénom. C'est le nom qu'on te donne quand tu nais."
+      - text: "Quand on appelle ton prénom, tu réponds."
+      - text: "Un prénom s'écrit avec des lettres. La première lettre est une majuscule."
+    exercises:
+      - type: qcm
+        text: "Ton prénom, c'est…"
+        speak: "Ton prénom, c'est quoi ?"
+        options: ["le nom qu'on te donne", "ton âge", "ta taille"]
+        answer: "le nom qu'on te donne"
+        explanation: "Le prénom est le nom qu'on te donne."
+      - type: qcm
+        text: "Par quoi commence un prénom écrit ?"
+        options: ["une majuscule", "un chiffre", "un point"]
+        answer: "une majuscule"
+        explanation: "La première lettre du prénom est une majuscule."
+      - type: ordre
+        text: "Remets les lettres dans l'ordre pour écrire le prénom PAUL."
+        order: ["P", "A", "U", "L"]
+        explanation: "On écrit P, A, U, L : cela fait PAUL."
+      - type: association
+        text: "Relie chaque prénom à sa première lettre."
+        pairs:
+          "Awa": "A"
+          "Paul": "P"
+          "Ngono": "N"
+          "Marie": "M"
+        explanation: "On regarde la première lettre du prénom."
+      - type: saisie
+        text: "Écris la première lettre du prénom « Awa »."
+        keyboard: text
+        accepted: ["a"]
+        explanation: "Awa commence par la lettre A."
+      - type: vrai_faux
+        text: "Mon prénom commence par une majuscule."
+        answer: vrai
+        explanation: "La première lettre d'un prénom est une majuscule."
+
+  - id: ecole-classe
+    title: "L'école et la classe"
+    lesson:
+      - text: "À l'école, on apprend à lire, à écrire et à compter."
+      - text: "Dans la classe, il y a la maîtresse ou le maître, les tables et le tableau."
+      - text: "À l'école, on lève le doigt pour parler et on range ses affaires."
+    exercises:
+      - type: qcm
+        text: "Où va-t-on pour apprendre à lire ?"
+        options: ["à l'école", "au marché", "à la rivière"]
+        answer: "à l'école"
+        explanation: "On apprend à lire à l'école."
+      - type: qcm
+        text: "Qui enseigne dans la classe ?"
+        options: ["la maîtresse", "le médecin", "le cuisinier"]
+        answer: "la maîtresse"
+        explanation: "La maîtresse ou le maître enseigne aux élèves."
+      - type: association
+        text: "Relie chaque objet à ce qu'on en fait."
+        pairs:
+          "le crayon": "écrire"
+          "le livre": "lire"
+          "le ballon": "jouer"
+          "le cartable": "porter ses affaires"
+        explanation: "Chaque objet de l'école sert à quelque chose."
+      - type: ordre
+        text: "Remets les moments de la journée d'école dans l'ordre."
+        order: ["on arrive à l'école", "on travaille en classe", "on joue à la récréation", "on rentre à la maison"]
+        explanation: "D'abord on arrive, puis on travaille, ensuite on joue, enfin on rentre."
+      - type: vrai_faux
+        text: "À l'école, on lève le doigt pour parler."
+        answer: vrai
+        explanation: "On lève le doigt et on attend la parole."
+      - type: vrai_faux
+        text: "À l'école, on court dans la classe."
+        answer: faux
+        explanation: "On ne court pas dans la classe : on peut se faire mal."
+
 

@@ -190,4 +190,200 @@ chapters:
         answer: vrai
         explanation: "1 000 F, c'est deux fois 500 F."
 
+  - id: nombres-60
+    title: "Les nombres jusqu'à 60"
+    lesson:
+      - text: "Après 20, on compte de 10 en 10 : 10, 20, 30, 40, 50, 60."
+      - text: "Entre 20 et 30, il y a 21, 22, 23… jusqu'à 29."
+        speak: "Entre 20 et 30, il y a 21, 22, 23, et ainsi de suite jusqu'à 29."
+      - text: "34, c'est 3 dizaines et 4 unités."
+    exercises:
+      - type: qcm
+        text: "Quel nombre vient après 29 ?"
+        options: ["30", "28", "31"]
+        answer: "30"
+        explanation: "On compte : 28, 29, 30."
+      - type: qcm
+        text: "Combien font 4 dizaines et 2 unités ?"
+        options: ["42", "24", "40"]
+        answer: "42"
+        explanation: "4 dizaines et 2 unités, cela fait 42."
+      - type: association
+        text: "Relie chaque nombre à son écriture en lettres."
+        pairs:
+          "30": "trente"
+          "40": "quarante"
+          "50": "cinquante"
+          "60": "soixante"
+        explanation: "30, 40, 50, 60."
+      - type: ordre
+        text: "Range les nombres du plus petit au plus grand."
+        order: ["23", "31", "45", "58"]
+        explanation: "On range : 23, 31, 45, 58."
+      - type: saisie
+        text: "Écris en chiffres : cinquante-cinq"
+        keyboard: number
+        accepted: ["55"]
+        explanation: "Cinquante-cinq s'écrit 55."
+      - type: vrai_faux
+        text: "60 vient juste après 59."
+        answer: vrai
+        explanation: "On compte : 59, 60."
+
+  - id: nombres-100
+    title: "Les nombres jusqu'à 100"
+    lesson:
+      - text: "On compte de 10 en 10 jusqu'à 100 : 10, 20, 30, 40, 50, 60, 70, 80, 90, 100."
+      - text: "100, c'est 10 dizaines."
+      - text: "Dans 76, il y a 7 dizaines et 6 unités."
+    exercises:
+      - type: qcm
+        text: "Quel nombre vient après 89 ?"
+        options: ["90", "88", "91"]
+        answer: "90"
+        explanation: "On compte : 88, 89, 90."
+      - type: qcm
+        text: "Combien y a-t-il de dizaines dans 76 ?"
+        options: ["7", "6", "76"]
+        answer: "7"
+        explanation: "76, c'est 7 dizaines et 6 unités."
+      - type: qcm
+        text: "Combien font 10 dizaines ?"
+        options: ["100", "10", "1 000"]
+        answer: "100"
+        explanation: "10 dizaines font 100."
+      - type: ordre
+        text: "Range les nombres du plus petit au plus grand."
+        order: ["45", "67", "89", "100"]
+        explanation: "On range : 45, 67, 89, 100."
+      - type: saisie
+        text: "Écris en chiffres : quatre-vingt-dix"
+        keyboard: number
+        accepted: ["90"]
+        explanation: "Quatre-vingt-dix s'écrit 90."
+      - type: vrai_faux
+        text: "99 vient juste avant 100."
+        answer: vrai
+        explanation: "On compte : 99, 100."
+
+  - id: addition-20
+    title: "Additionner jusqu'à 20"
+    lesson:
+      - text: "Pour additionner jusqu'à 20, on garde le grand nombre dans la tête et on compte sur les doigts."
+      - text: "12 + 5 : on garde 12, puis on compte 13, 14, 15, 16, 17."
+      - text: "Quand on dépasse 10, on fait une dizaine : 8 + 5 = 13."
+    exercises:
+      - type: qcm
+        text: "12 + 5 = ?"
+        options: ["17", "16", "18"]
+        answer: "17"
+        explanation: "12 + 5 = 17."
+      - type: qcm
+        text: "8 + 5 = ?"
+        options: ["13", "12", "14"]
+        answer: "13"
+        explanation: "8 + 5 = 13 : on dépasse 10."
+      - type: saisie
+        text: "9 + 7 = ?"
+        keyboard: number
+        accepted: ["16"]
+        explanation: "9 + 7 = 16."
+      - type: association
+        text: "Relie chaque addition à son résultat."
+        pairs:
+          "11 + 4": "15"
+          "7 + 6": "13"
+          "13 + 5": "18"
+          "6 + 8": "14"
+        explanation: "11 + 4 = 15, 7 + 6 = 13, 13 + 5 = 18, 6 + 8 = 14."
+      - type: qcm
+        text: "Awa a 12 mangues. Paul lui en donne 6. Combien en a-t-elle ?"
+        options: ["18", "16", "19"]
+        answer: "18"
+        explanation: "12 + 6 = 18."
+      - type: vrai_faux
+        text: "15 + 5 = 20"
+        answer: vrai
+        explanation: "15 + 5 = 20."
+
+  - id: figures-geometriques
+    title: "Les figures géométriques"
+    lesson:
+      - text: "Le carré a 4 côtés tous pareils. Le rectangle a 2 côtés longs et 2 côtés courts."
+      - text: "Le triangle a 3 côtés et 3 sommets."
+      - text: "Le rond n'a pas de côté : il est tout rond."
+    exercises:
+      - type: saisie
+        text: "Combien de côtés a un triangle ? Écris le chiffre."
+        keyboard: number
+        accepted: ["3"]
+        explanation: "Le triangle a 3 côtés."
+      - type: qcm
+        text: "Quelle figure a 4 côtés tous pareils ?"
+        options: ["le carré", "le rectangle", "le triangle"]
+        answer: "le carré"
+        explanation: "Le carré a 4 côtés tous pareils."
+      - type: qcm
+        text: "Quelle figure n'a pas de côté ?"
+        options: ["le rond", "le carré", "le rectangle"]
+        answer: "le rond"
+        explanation: "Le rond est tout rond, sans côté."
+      - type: association
+        text: "Relie chaque figure à ce qui la décrit."
+        pairs:
+          "le carré": "4 côtés pareils"
+          "le rectangle": "2 côtés longs et 2 côtés courts"
+          "le triangle": "3 côtés"
+          "le rond": "aucun côté"
+        explanation: "Chaque figure a ses propres côtés."
+      - type: qcm
+        text: "Le tableau de la classe ressemble à quelle figure ?"
+        options: ["un rectangle", "un rond", "un triangle"]
+        answer: "un rectangle"
+        explanation: "Le tableau a 2 côtés longs et 2 côtés courts."
+      - type: vrai_faux
+        text: "Un triangle a 4 côtés."
+        answer: faux
+        explanation: "Un triangle a 3 côtés."
+
+  - id: mesurer-regle
+    title: "Mesurer avec la règle"
+    lesson:
+      - text: "On mesure une longueur avec une règle. On compte en centimètres : cm."
+      - text: "Pour mesurer, on place le 0 de la règle au début de l'objet."
+      - text: "1 mètre vaut 100 centimètres."
+    exercises:
+      - type: qcm
+        text: "Avec quoi mesure-t-on une longueur ?"
+        options: ["une règle", "un livre", "une cuillère"]
+        answer: "une règle"
+        explanation: "On mesure une longueur avec une règle."
+      - type: qcm
+        text: "Où place-t-on le 0 de la règle ?"
+        options: ["au début de l'objet", "au milieu de l'objet", "à la fin de l'objet"]
+        answer: "au début de l'objet"
+        explanation: "Le 0 de la règle se place au début de l'objet."
+      - type: association
+        text: "Relie chaque objet à sa longueur."
+        pairs:
+          "une gomme": "quelques centimètres"
+          "un cahier": "quelques dizaines de centimètres"
+          "une salle de classe": "plusieurs mètres"
+        explanation: "On choisit la longueur qui convient à l'objet."
+      - type: qcm
+        text: "Combien y a-t-il de centimètres dans 1 mètre ?"
+        options: ["100", "10", "1 000"]
+        answer: "100"
+        explanation: "1 mètre vaut 100 centimètres."
+      - type: saisie
+        text: "1 mètre = … cm"
+        speak: "Un mètre égale combien de centimètres ?"
+        keyboard: number
+        accepted: ["100"]
+        explanation: "1 mètre = 100 cm."
+      - type: vrai_faux
+        text: "On écrit cm pour centimètre."
+        answer: vrai
+        explanation: "cm veut dire centimètre."
+
 

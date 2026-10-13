@@ -147,4 +147,43 @@ chapters:
         answer: faux
         explanation: "L'eau sale rend malade. On boit de l'eau propre."
 
+  - id: temps-quil-fait
+    title: "Le temps qu'il fait"
+    lesson:
+      - text: "Quand le soleil brille, il fait beau et chaud."
+      - text: "Quand les nuages sont gris, il pleut. On prend un parapluie ☔."
+      - text: "Il peut aussi faire froid ou y avoir du vent."
+    exercises:
+      - type: qcm
+        text: "Que prend-on quand il pleut ?"
+        options: ["un parapluie", "des lunettes de soleil", "un éventail"]
+        answer: "un parapluie"
+        explanation: "Quand il pleut, on prend un parapluie."
+      - type: qcm
+        text: "Quand le soleil brille, il fait…"
+        speak: "Quand le soleil brille, il fait quoi ?"
+        options: ["beau", "froid", "nuit"]
+        answer: "beau"
+        explanation: "Quand le soleil brille, il fait beau."
+      - type: qcm
+        text: "Pendant la saison des pluies, que fait-il souvent ?"
+        options: ["il pleut", "il neige", "il fait très froid"]
+        answer: "il pleut"
+        explanation: "Pendant la saison des pluies, il pleut souvent."
+      - type: association
+        text: "Relie ce que tu vois au temps qu'il fait."
+        pairs:
+          "☀️": "il fait beau"
+          "🌧️": "il pleut"
+          "💨": "il y a du vent"
+        explanation: "Soleil, pluie, vent."
+      - type: vrai_faux
+        text: "Quand il pleut, les nuages sont gris."
+        answer: vrai
+        explanation: "Les nuages gris annoncent la pluie."
+      - type: vrai_faux
+        text: "On met un manteau quand il fait chaud."
+        answer: faux
+        explanation: "On met un manteau quand il fait froid."
+
 

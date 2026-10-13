@@ -153,4 +153,165 @@ chapters:
         answer: vrai
         explanation: "On dit : la fille."
 
+  - id: alphabet
+    title: "L'alphabet"
+    lesson:
+      - text: "L'alphabet, c'est la suite de toutes les lettres : a, b, c, d, e, f…"
+        speak: "L'alphabet, c'est la suite de toutes les lettres : a, b, c, d, e, f."
+      - text: "Il y a 26 lettres. On les range toujours dans le même ordre."
+      - text: "Les voyelles sont a, e, i, o, u, y. Les autres lettres sont des consonnes."
+    exercises:
+      - type: ordre
+        text: "Remets les premières lettres de l'alphabet dans l'ordre."
+        order: ["a", "b", "c", "d", "e"]
+        explanation: "L'alphabet commence par a, b, c, d, e."
+      - type: qcm
+        text: "Quelle lettre vient après le c ?"
+        options: ["d", "b", "e"]
+        answer: "d"
+        explanation: "On compte : a, b, c, d."
+      - type: qcm
+        text: "Quelle lettre vient juste avant le p ?"
+        options: ["o", "q", "n"]
+        answer: "o"
+        explanation: "On compte : n, o, p."
+      - type: saisie
+        text: "Combien y a-t-il de lettres dans l'alphabet ?"
+        keyboard: number
+        accepted: ["26"]
+        explanation: "L'alphabet a 26 lettres."
+      - type: association
+        text: "Relie chaque lettre à celle qui vient juste après."
+        pairs:
+          "b": "c"
+          "m": "n"
+          "r": "s"
+          "y": "z"
+        explanation: "c après b, n après m, s après r, z après y."
+      - type: vrai_faux
+        text: "La lettre a est une voyelle."
+        answer: vrai
+        explanation: "a, e, i, o, u, y sont des voyelles."
+
+  - id: syllabes-r-s-t-d-b
+    title: "Lire des syllabes : r, s, t, d, b"
+    lesson:
+      - text: "Avec r : ra, re, ri, ro, ru."
+      - text: "Avec s : sa, se, si, so, su. Avec t : ta, te, ti, to, tu."
+      - text: "Avec d : da, de, di, do, du. Avec b : ba, be, bi, bo, bu."
+      - text: "En assemblant des syllabes, on fait des mots : ra + dio = radio."
+    exercises:
+      - type: qcm
+        text: "Quel mot lis-tu : ra + dio ?"
+        options: ["radio", "radis", "rando"]
+        answer: "radio"
+        explanation: "ra + dio = radio."
+      - type: qcm
+        text: "Quel mot lis-tu : ba + teau ?"
+        options: ["bateau", "bureau", "banane"]
+        answer: "bateau"
+        explanation: "ba + teau = bateau."
+      - type: saisie
+        text: "Écris le mot : to + ma + te"
+        keyboard: text
+        accepted: ["tomate"]
+        explanation: "to + ma + te = tomate."
+      - type: association
+        text: "Relie chaque syllabe au mot qui commence par elle."
+        pairs:
+          "ra": "radio"
+          "sa": "sac"
+          "tu": "tuyau"
+          "bo": "bonbon"
+        explanation: "radio commence par ra, sac par sa, tuyau par tu, bonbon par bo."
+      - type: vrai_faux
+        text: "La syllabe « su » commence par la lettre s."
+        answer: vrai
+        explanation: "su, c'est la lettre s et la voyelle u."
+      - type: vrai_faux
+        text: "La syllabe « bri » commence par la lettre r."
+        answer: faux
+        explanation: "« bri » commence par la lettre b."
+
+  - id: pluriel-les-des
+    title: "Le pluriel : les, des"
+    lesson:
+      - text: "Un seul : un chat. Plusieurs : les chats, des chats."
+      - text: "Au pluriel, on ajoute souvent un s à la fin du mot."
+      - text: "« Le » devient « les ». « Un » devient « des »."
+    exercises:
+      - type: qcm
+        text: "Quand il y a plusieurs chats, on écrit…"
+        speak: "Quand il y a plusieurs chats, on écrit quoi ?"
+        options: ["les chats", "le chat", "un chat"]
+        answer: "les chats"
+        explanation: "Au pluriel, on écrit les chats."
+      - type: qcm
+        text: "Quel est le pluriel de « la maison » ?"
+        options: ["les maisons", "la maisons", "le maison"]
+        answer: "les maisons"
+        explanation: "Au pluriel : les maisons."
+      - type: qcm
+        text: "Quelle lettre ajoute-t-on souvent au pluriel ?"
+        options: ["s", "a", "e"]
+        answer: "s"
+        explanation: "Au pluriel, on ajoute souvent un s."
+      - type: association
+        text: "Relie chaque mot au singulier à son pluriel."
+        pairs:
+          "le chien": "les chiens"
+          "la fleur": "les fleurs"
+          "un livre": "des livres"
+          "une pomme": "des pommes"
+        explanation: "le devient les, un devient des."
+      - type: saisie
+        text: "Écris au pluriel : le ballon"
+        keyboard: text
+        accepted: ["les ballons"]
+        explanation: "Au pluriel : les ballons."
+      - type: vrai_faux
+        text: "On écrit « un chats »."
+        answer: faux
+        explanation: "« un » est au singulier : un chat."
+
+  - id: copier-un-mot
+    title: "Copier un mot"
+    lesson:
+      - text: "Copier, c'est écrire exactement le même mot, lettre par lettre."
+      - text: "On regarde le mot, on le dit dans sa tête, puis on l'écrit."
+      - text: "On met une majuscule au début d'un prénom et un point à la fin d'une phrase."
+    exercises:
+      - type: saisie
+        text: "Copie le mot : école"
+        keyboard: text
+        accepted: ["école"]
+        explanation: "On écrit é, c, o, l, e : école."
+      - type: saisie
+        text: "Copie le mot : banane"
+        keyboard: text
+        accepted: ["banane"]
+        explanation: "On écrit b, a, n, a, n, e : banane."
+      - type: qcm
+        text: "Quel mot est écrit exactement comme « ballon » ?"
+        options: ["ballon", "balon", "ballons"]
+        answer: "ballon"
+        explanation: "« ballon » s'écrit avec deux l et sans s."
+      - type: qcm
+        text: "Copier un mot, c'est…"
+        speak: "Copier un mot, c'est quoi ?"
+        options: ["écrire le même mot", "inventer un mot", "effacer le mot"]
+        answer: "écrire le même mot"
+        explanation: "Copier, c'est écrire exactement le même mot."
+      - type: association
+        text: "Relie chaque mot à ce qu'il faut bien écrire."
+        pairs:
+          "un ballon": "deux l"
+          "une école": "un accent sur le e"
+          "un chat": "un t à la fin"
+        explanation: "On regarde chaque lettre du mot."
+      - type: vrai_faux
+        text: "On écrit un prénom avec une majuscule au début."
+        answer: vrai
+        explanation: "Le prénom commence par une majuscule."
+
 

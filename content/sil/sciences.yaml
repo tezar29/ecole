@@ -1,0 +1,182 @@
+level: sil
+subject: sciences
+
+chapters:
+  - id: cinq-sens
+    title: "Les cinq sens"
+    lesson:
+      - text: "Avec les yeux, on voit. Avec les oreilles, on entend. Avec le nez, on sent. Avec la langue, on goûte. Avec la peau, on touche."
+    exercises:
+      - type: qcm
+        text: "Avec quoi goûte-t-on les aliments ?"
+        options: ["la langue", "les yeux", "les oreilles"]
+        answer: "la langue"
+        explanation: "On goûte avec la langue."
+      - type: qcm
+        text: "Avec quoi touche-t-on ?"
+        options: ["la peau", "le nez", "les oreilles"]
+        answer: "la peau"
+        explanation: "On touche avec la peau, surtout avec les mains."
+      - type: qcm
+        text: "Tu sens une bonne odeur de beignets. Qu'utilises-tu ?"
+        options: ["le nez", "les yeux", "les mains"]
+        answer: "le nez"
+        explanation: "On sent les odeurs avec le nez."
+      - type: association
+        text: "Relie chaque partie du corps à ce qu'elle permet de faire."
+        pairs:
+          "les yeux": "voir"
+          "le nez": "sentir"
+          "les oreilles": "entendre"
+          "la langue": "goûter"
+        explanation: "Chaque sens a son organe."
+      - type: vrai_faux
+        text: "On entend avec le nez."
+        answer: faux
+        explanation: "On entend avec les oreilles."
+
+  - id: jour-nuit
+    title: "Le jour et la nuit"
+    lesson:
+      - text: "Le jour, le Soleil ☀️ éclaire la Terre. On voit bien."
+      - text: "La nuit, il fait noir. On voit la Lune 🌙 et les étoiles ⭐."
+      - text: "Le matin, on se réveille. Le soir, on va dormir."
+    exercises:
+      - type: qcm
+        text: "Quand voit-on le Soleil ?"
+        options: ["le jour", "la nuit"]
+        answer: "le jour"
+        explanation: "Le Soleil éclaire la Terre le jour."
+      - type: qcm
+        text: "Quand voit-on les étoiles ?"
+        options: ["la nuit", "le jour"]
+        answer: "la nuit"
+        explanation: "La nuit, on voit la Lune et les étoiles."
+      - type: qcm
+        text: "Qui éclaire la Terre le jour ?"
+        options: ["le Soleil", "la Lune", "un nuage"]
+        answer: "le Soleil"
+        explanation: "Le Soleil éclaire la Terre."
+      - type: association
+        text: "Relie chaque dessin au bon moment."
+        pairs:
+          "☀️": "le jour"
+          "🌙": "la nuit"
+        explanation: "Soleil le jour, Lune la nuit."
+      - type: ordre
+        text: "Range les moments de la journée dans l'ordre."
+        order: ["le matin", "le midi", "le soir", "la nuit"]
+        explanation: "Matin, midi, soir, nuit."
+      - type: vrai_faux
+        text: "La nuit, on dort dans son lit."
+        answer: vrai
+        explanation: "La nuit, on dort pour se reposer."
+
+  - id: animaux
+    title: "Les animaux"
+    lesson:
+      - text: "Certains animaux vivent avec nous : le chat 🐱, le chien 🐶, la poule 🐔."
+      - text: "D'autres animaux vivent dans la forêt : l'éléphant 🐘, le singe 🐒, le serpent 🐍."
+      - text: "Les animaux ont besoin de manger et de boire."
+    exercises:
+      - type: qcm
+        text: "Quel animal vit avec nous à la maison ?"
+        options: ["le chat", "l'éléphant", "le serpent"]
+        answer: "le chat"
+        explanation: "Le chat vit avec nous."
+      - type: qcm
+        text: "Quel animal vit dans la forêt ?"
+        options: ["l'éléphant", "le chien", "la poule"]
+        answer: "l'éléphant"
+        explanation: "L'éléphant vit dans la nature."
+      - type: association
+        text: "Relie chaque dessin à son nom."
+        pairs:
+          "🐱": "chat"
+          "🐘": "éléphant"
+          "🐒": "singe"
+          "🐔": "poule"
+        explanation: "chat, éléphant, singe, poule."
+      - type: vrai_faux
+        text: "Les animaux ont besoin de manger et de boire."
+        answer: vrai
+        explanation: "Comme nous, les animaux ont faim et soif."
+      - type: vrai_faux
+        text: "Le serpent vit dans la maison avec nous."
+        answer: faux
+        explanation: "Le serpent vit dans la nature."
+      - type: saisie
+        text: "Écris le nom de cet animal. 🐘"
+        keyboard: text
+        accepted: ["éléphant", "elephant"]
+        explanation: "C'est un éléphant."
+
+  - id: plantes
+    title: "Les plantes"
+    lesson:
+      - text: "Les plantes poussent dans la terre. Il y a des arbres 🌳, des fleurs 🌸 et des herbes."
+      - text: "Pour grandir, une plante a besoin d'eau, de lumière et de terre."
+    exercises:
+      - type: qcm
+        text: "De quoi une plante a-t-elle besoin pour grandir ?"
+        options: ["d'eau", "de bonbons", "de jouets"]
+        answer: "d'eau"
+        explanation: "Une plante a besoin d'eau, de lumière et de terre."
+      - type: qcm
+        text: "Où poussent les plantes ?"
+        options: ["dans la terre", "dans un lit", "dans un sac"]
+        answer: "dans la terre"
+        explanation: "Les plantes poussent dans la terre."
+      - type: association
+        text: "Relie chaque dessin à son nom."
+        pairs:
+          "🌳": "arbre"
+          "🌸": "fleur"
+          "🌱": "jeune plante"
+        explanation: "arbre, fleur, jeune plante."
+      - type: vrai_faux
+        text: "Un arbre est une plante."
+        answer: vrai
+        explanation: "L'arbre est une grande plante."
+      - type: vrai_faux
+        text: "Une plante n'a pas besoin d'eau."
+        answer: faux
+        explanation: "Sans eau, la plante meurt."
+
+  - id: eau
+    title: "L'eau"
+    lesson:
+      - text: "L'eau sert à boire, à se laver et à cuisiner."
+      - text: "L'eau propre n'a pas de couleur et n'a pas de goût."
+      - text: "On boit seulement de l'eau propre. On ferme le robinet pour ne pas gaspiller."
+    exercises:
+      - type: qcm
+        text: "À quoi sert l'eau ?"
+        options: ["à boire et à se laver", "à écrire", "à coudre"]
+        answer: "à boire et à se laver"
+        explanation: "On utilise l'eau pour boire, se laver et cuisiner."
+      - type: qcm
+        text: "Quelle eau peut-on boire ?"
+        options: ["l'eau propre", "l'eau sale d'une flaque", "l'eau de mer"]
+        answer: "l'eau propre"
+        explanation: "On boit seulement de l'eau propre."
+      - type: qcm
+        text: "Où trouve-t-on de l'eau ?"
+        options: ["dans la rivière", "dans le sable sec", "dans le feu"]
+        answer: "dans la rivière"
+        explanation: "Il y a de l'eau dans la rivière."
+      - type: association
+        text: "Relie chaque geste à l'objet qu'on utilise."
+        pairs:
+          "boire": "un verre d'eau propre"
+          "se laver": "de l'eau et du savon"
+          "cuisiner": "de l'eau dans la marmite"
+        explanation: "Chaque geste se fait avec de l'eau propre."
+      - type: vrai_faux
+        text: "L'eau propre a un goût sucré."
+        answer: faux
+        explanation: "L'eau propre n'a pas de goût."
+      - type: vrai_faux
+        text: "Il faut fermer le robinet pour ne pas gaspiller l'eau."
+        answer: vrai
+        explanation: "On ne laisse pas couler l'eau pour rien."

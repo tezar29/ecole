@@ -1,0 +1,91 @@
+level: cp
+subject: informatique
+
+chapters:
+  - id: parties-ordinateur
+    title: "Les parties de l'ordinateur"
+    lesson:
+      - text: "L'écran 🖥️ montre les images et les textes."
+      - text: "Le clavier ⌨️ sert à écrire. La souris 🖱️ sert à déplacer la flèche."
+        speak: "Le clavier sert à écrire. La souris sert à déplacer la flèche."
+      - text: "L'unité centrale est le boîtier : c'est le cerveau de l'ordinateur."
+    exercises:
+      - type: association
+        text: "Relie chaque partie de l'ordinateur à son rôle."
+        pairs:
+          "l'écran": "montrer les images"
+          "le clavier": "écrire"
+          "la souris": "déplacer la flèche"
+        explanation: "L'écran montre, le clavier écrit, la souris déplace la flèche."
+      - type: qcm
+        text: "Quelle partie sert à écrire ?"
+        options: ["le clavier", "l'écran", "la souris"]
+        answer: "le clavier"
+        explanation: "On écrit avec le clavier."
+      - type: qcm
+        text: "Quelle partie montre les images ?"
+        options: ["l'écran", "le clavier", "la souris"]
+        answer: "l'écran"
+        explanation: "L'écran montre les images."
+      - type: qcm
+        text: "Comment s'appelle le boîtier de l'ordinateur ?"
+        options: ["l'unité centrale", "la souris", "l'écran"]
+        answer: "l'unité centrale"
+        explanation: "Le boîtier s'appelle l'unité centrale."
+      - type: vrai_faux
+        text: "La souris sert à déplacer la flèche sur l'écran."
+        answer: vrai
+        explanation: "On bouge la souris pour déplacer la flèche."
+
+  - id: allumer-eteindre
+    title: "Allumer et éteindre l'ordinateur"
+    lesson:
+      - text: "Pour allumer l'ordinateur, on appuie sur le bouton marche."
+      - text: "Pour l'éteindre, on ferme les programmes, puis on choisit « Arrêter » dans le menu."
+      - text: "On ne coupe jamais le courant d'un coup."
+    exercises:
+      - type: qcm
+        text: "Comment allume-t-on l'ordinateur ?"
+        options: ["avec le bouton marche", "avec la souris seulement", "en le secouant"]
+        answer: "avec le bouton marche"
+        explanation: "On appuie sur le bouton marche."
+      - type: ordre
+        text: "Remets les gestes dans l'ordre pour éteindre l'ordinateur."
+        order: ["Fermer les programmes", "Ouvrir le menu", "Choisir Arrêter"]
+        explanation: "On ferme, on ouvre le menu, on choisit Arrêter."
+      - type: vrai_faux
+        text: "Pour éteindre l'ordinateur, on débranche le courant d'un coup."
+        answer: faux
+        explanation: "On l'éteint avec le menu, sans débrancher."
+      - type: vrai_faux
+        text: "On appuie sur le bouton marche pour allumer l'ordinateur."
+        answer: vrai
+        explanation: "Le bouton marche allume l'ordinateur."
+
+  - id: souris-clavier
+    title: "La souris et le clavier"
+    lesson:
+      - text: "Avec la souris, on fait un clic pour choisir et un double-clic pour ouvrir."
+      - text: "Sur le clavier, il y a des lettres, des chiffres et la grande barre d'espace."
+      - text: "La touche Entrée sert à aller à la ligne."
+    exercises:
+      - type: qcm
+        text: "Que fait la barre d'espace ?"
+        options: ["elle sépare les mots", "elle éteint l'ordinateur", "elle efface l'écran"]
+        answer: "elle sépare les mots"
+        explanation: "La barre d'espace laisse un espace entre les mots."
+      - type: qcm
+        text: "Que fait un double-clic sur un dossier ?"
+        options: ["il l'ouvre", "il éteint l'écran", "il fait du bruit"]
+        answer: "il l'ouvre"
+        explanation: "Un double-clic ouvre le dossier."
+      - type: vrai_faux
+        text: "Le clavier a des lettres et des chiffres."
+        answer: vrai
+        explanation: "Il y a des lettres et des chiffres sur le clavier."
+      - type: association
+        text: "Relie chaque touche à son rôle."
+        pairs:
+          "la barre d'espace": "séparer les mots"
+          "la touche Entrée": "aller à la ligne"
+        explanation: "Espace sépare les mots, Entrée va à la ligne."

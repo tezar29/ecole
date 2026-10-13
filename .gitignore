@@ -46,3 +46,7 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Illustrations brutes (compilées vers assets/images/lessons par tools/)
+.tmp_illustrations/
+vibe_images/

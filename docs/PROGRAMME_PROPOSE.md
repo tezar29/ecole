@@ -10,19 +10,19 @@ Chaque chapitre = 1 leçon courte + 4 à 6 exercices. Cible : environ 5 à 6 cha
 ## SIL
 | Matière | Chapitres |
 |---|---|
-| Mathématiques | ✅ Les chiffres de 0 à 5 · ✅ Les chiffres de 6 à 10 · ✅ Plus, moins, autant · ✅ Les formes · ✏️ Se repérer (dessus, dessous, devant, derrière) · ✏️ Les suites logiques |
-| Français | ✅ Les voyelles · ✅ Écouter les sons a, i, o · ✅ Les parties du corps · ✅ La famille · ✏️ Mon prénom · ✏️ L'école et la classe |
-| Anglais | ✅ Hello ! (saluer) · ✅ Les couleurs · ✅ Les nombres de 1 à 5 · ✅ Les animaux |
-| Sciences | ✅ Les cinq sens · ✅ Le jour et la nuit · ✅ Les animaux · ✅ Les plantes · ✏️ L'eau |
+| Mathématiques | ✅ Les chiffres de 0 à 5 · ✅ Les chiffres de 6 à 10 · ✅ Plus, moins, autant · ✅ Les formes · ✅ Se repérer (dessus, dessous, devant, derrière) · ✅ Les suites logiques |
+| Français | ✅ Les voyelles · ✅ Écouter les sons a, i, o · ✅ Les parties du corps · ✅ La famille · ✅ Mon prénom · ✅ L'école et la classe |
+| Anglais | ✅ Hello ! (saluer) · ✅ Les couleurs · ✅ Les nombres de 1 à 5 · ✅ Les animaux · ✅ Les fruits |
+| Sciences | ✅ Les cinq sens · ✅ Le jour et la nuit · ✅ Les animaux · ✅ Les plantes · ✅ L'eau |
 | Informatique | ✅ Découvrir le téléphone et la tablette · ✅ Toucher, glisser, appuyer |
 
 ## CP
 | Matière | Chapitres |
 |---|---|
-| Mathématiques | ✅ Les nombres jusqu'à 20 · ✅ La dizaine et les unités · ✅ Additionner jusqu'à 10 · ✅ Soustraire jusqu'à 10 · ✅ Les pièces et billets (FCFA) · ✏️ Les nombres jusqu'à 60 · ✏️ Les nombres jusqu'à 100 · ✏️ Additionner jusqu'à 20 · ✏️ Les figures géométriques · ✏️ Mesurer avec la règle |
-| Français | ✅ Lire des syllabes (m, l, p) · ✅ Lire des mots simples · ✅ La phrase · ✅ Le, la, un, une · ✏️ L'alphabet · ✏️ Syllabes avec r, s, t, d, b · ✏️ Le pluriel simple (les, des) · ✏️ Copier un mot |
-| Anglais | ✅ My name is… · ✅ Les nombres de 1 à 10 · ✏️ Les couleurs · ✅ Les fruits · ✅ Les objets de la classe |
-| Sciences | ✅ Les cinq sens · ✅ Animaux domestiques et sauvages · ✅ Les parties d'une plante · ✅ L'hygiène (se laver les mains) · ✏️ Le temps qu'il fait |
+| Mathématiques | ✅ Les nombres jusqu'à 20 · ✅ La dizaine et les unités · ✅ Additionner jusqu'à 10 · ✅ Soustraire jusqu'à 10 · ✅ Les pièces et billets (FCFA) · ✅ Les nombres jusqu'à 60 · ✅ Les nombres jusqu'à 100 · ✅ Additionner jusqu'à 20 · ✅ Les figures géométriques · ✅ Mesurer avec la règle |
+| Français | ✅ Lire des syllabes (m, l, p) · ✅ Lire des mots simples · ✅ La phrase · ✅ Le, la, un, une · ✅ L'alphabet · ✅ Syllabes avec r, s, t, d, b · ✅ Le pluriel simple (les, des) · ✅ Copier un mot |
+| Anglais | ✅ My name is… · ✅ Les nombres de 1 à 10 · ✅ Les couleurs · ✅ Les fruits · ✅ Les objets de la classe |
+| Sciences | ✅ Les cinq sens · ✅ Animaux domestiques et sauvages · ✅ Les parties d'une plante · ✅ L'hygiène (se laver les mains) · ✅ Le temps qu'il fait |
 | Informatique | ✅ Les parties de l'ordinateur · ✅ Allumer et éteindre · ✅ La souris et le clavier |
 
 ## CE1

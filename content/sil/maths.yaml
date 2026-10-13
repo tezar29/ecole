@@ -161,4 +161,90 @@ chapters:
         answer: vrai
         explanation: "Tri veut dire trois."
 
+  - id: se-reperer
+    title: "Se repérer : dessus, dessous, devant, derrière"
+    lesson:
+      - text: "Dessus, c'est sur la table. Dessous, c'est sous la table."
+      - text: "Devant, c'est en face de toi. Derrière, c'est dans ton dos."
+      - text: "Le chat 🐱 est sous la chaise : il est dessous."
+    exercises:
+      - type: qcm
+        text: "Le livre est sur la table. Le livre est…"
+        speak: "Le livre est sur la table. Le livre est où ?"
+        options: ["dessus", "dessous", "derrière"]
+        answer: "dessus"
+        explanation: "Sur la table, c'est dessus."
+      - type: qcm
+        text: "Le chat est sous la chaise. Le chat est…"
+        speak: "Le chat est sous la chaise. Le chat est où ?"
+        options: ["dessous", "dessus", "devant"]
+        answer: "dessous"
+        explanation: "Sous la chaise, c'est dessous."
+      - type: association
+        text: "Relie chaque expression au bon mot."
+        pairs:
+          "sur la table": "dessus"
+          "sous la table": "dessous"
+          "en face de moi": "devant"
+          "dans mon dos": "derrière"
+        explanation: "Dessus, dessous, devant, derrière."
+      - type: qcm
+        text: "Awa est face à la porte. Paul est dans son dos. Qui est derrière ?"
+        options: ["Paul", "Awa"]
+        answer: "Paul"
+        explanation: "Paul est dans le dos d'Awa : il est derrière."
+      - type: vrai_faux
+        text: "Derrière veut dire dans le dos."
+        answer: vrai
+        explanation: "Derrière, c'est dans le dos."
+      - type: vrai_faux
+        text: "Le ballon est au-dessus de la table : il est dessous."
+        answer: faux
+        explanation: "Au-dessus de la table, c'est dessus."
+
+  - id: suites-logiques
+    title: "Les suites logiques"
+    lesson:
+      - text: "Une suite, c'est un dessin qui se répète toujours de la même façon."
+      - text: "🔴 🔵 🔴 🔵 🔴 … ensuite vient 🔵."
+        speak: "Rond, bleu, rond, bleu, rond. Ensuite vient le bleu."
+      - text: "🍌 🍊 🍌 🍊 🍌 … ensuite vient 🍊."
+        speak: "Banane, orange, banane, orange, banane. Ensuite vient l'orange."
+    exercises:
+      - type: qcm
+        text: "Quelle forme vient ensuite ? 🔴 🔺 🔴 🔺 🔴 …"
+        speak: "Rond, triangle, rond, triangle, rond. Quelle forme vient ensuite ?"
+        options: ["🔺", "🔴", "⬛"]
+        answer: "🔺"
+        explanation: "La suite alterne rond et triangle. Après le rond vient le triangle."
+      - type: qcm
+        text: "Quel animal vient ensuite ? 🐱 🐶 🐱 🐶 🐱 …"
+        speak: "Chat, chien, chat, chien, chat. Quel animal vient ensuite ?"
+        options: ["🐶", "🐱", "🐟"]
+        answer: "🐶"
+        explanation: "La suite alterne chat et chien. Après le chat vient le chien."
+      - type: qcm
+        text: "Quel fruit vient ensuite ? 🍌 🍌 🍊 🍌 🍌 …"
+        speak: "Banane, banane, orange, banane, banane. Quel fruit vient ensuite ?"
+        options: ["🍊", "🍌", "🍎"]
+        answer: "🍊"
+        explanation: "La suite fait deux bananes puis une orange. Ensuite vient l'orange."
+      - type: association
+        text: "Relie chaque suite à ce qui vient ensuite."
+        pairs:
+          "🔴 🔴 🔵 🔴 🔴 …": "🔵"
+          "🍎 🍌 🍎 🍌 🍎 …": "🍌"
+          "⬛ 🔺 ⬛ 🔺 ⬛ …": "🔺"
+        explanation: "On regarde ce qui se répète dans la suite."
+      - type: vrai_faux
+        text: "Dans la suite 🔴 🔵 🔴 🔵, après le 🔴 vient le 🔵."
+        speak: "Dans la suite rond, bleu, rond, bleu, après le rond vient le bleu."
+        answer: vrai
+        explanation: "La suite alterne rond et bleu."
+      - type: vrai_faux
+        text: "La suite 🔴 🔺 🔴 🔺 continue avec un ⬛."
+        speak: "La suite rond, triangle, rond, triangle continue-t-elle avec un carré ?"
+        answer: faux
+        explanation: "La suite alterne rond et triangle, pas carré."
+
 

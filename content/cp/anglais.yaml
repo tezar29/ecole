@@ -149,4 +149,45 @@ chapters:
         accepted: ["ruler"]
         explanation: "Règle se dit ruler."
 
+  - id: couleurs
+    title: "Les couleurs en anglais"
+    lesson:
+      - text: "Red, blue, green, yellow, black, white."
+        lang: en
+      - text: "Red veut dire rouge. Blue veut dire bleu. Green veut dire vert. Yellow veut dire jaune."
+      - text: "Black veut dire noir. White veut dire blanc."
+    exercises:
+      - type: qcm
+        text: "Comment dit-on « rouge » en anglais ?"
+        options: ["red", "blue", "green"]
+        answer: "red"
+        explanation: "Rouge se dit red."
+      - type: qcm
+        text: "Que veut dire « white » ?"
+        options: ["blanc", "noir", "vert"]
+        answer: "blanc"
+        explanation: "White veut dire blanc."
+      - type: qcm
+        text: "Quelle est la couleur d'une banane ? 🍌"
+        options: ["yellow", "blue", "black"]
+        answer: "yellow"
+        explanation: "La banane est jaune : yellow."
+      - type: association
+        text: "Relie chaque couleur à sa traduction."
+        pairs:
+          "red": "rouge"
+          "green": "vert"
+          "black": "noir"
+          "white": "blanc"
+        explanation: "red, green, black, white."
+      - type: saisie
+        text: "Écris en anglais : vert"
+        keyboard: text
+        accepted: ["green"]
+        explanation: "Vert se dit green."
+      - type: vrai_faux
+        text: "« Yellow » veut dire noir."
+        answer: faux
+        explanation: "Yellow veut dire jaune. Noir se dit black."
+
 
