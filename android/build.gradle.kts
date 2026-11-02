@@ -29,10 +29,17 @@ subprojects {
     tasks.withType<KotlinJvmCompile>().configureEach {
         compilerOptions.jvmTarget.set(JvmTarget.JVM_17)
     }
-    afterEvaluate {
-        tasks.withType<JavaCompile>().configureEach {
-            sourceCompatibility = JavaVersion.VERSION_17.toString()
-            targetCompatibility = JavaVersion.VERSION_17.toString()
+}
+
+gradle.projectsEvaluated {
+    subprojects.forEach { subproject ->
+        if (subproject.plugins.hasPlugin("com.android.library") ||
+            subproject.plugins.hasPlugin("com.android.application")
+        ) {
+            subproject.tasks.withType<JavaCompile>().configureEach {
+                sourceCompatibility = JavaVersion.VERSION_17.toString()
+                targetCompatibility = JavaVersion.VERSION_17.toString()
+            }
         }
     }
 }
