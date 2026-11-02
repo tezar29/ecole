@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-import '../../../../core/brand.dart';
+import '../../core/brand.dart';
 
 /// Appelé UNE fois, quand l'élève a terminé l'exercice.
 typedef DoneCallback = void Function(bool correct);

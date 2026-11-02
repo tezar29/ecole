@@ -430,3 +430,17 @@ h1 em, h2 em { color: var(--teal-ink); font-style: normal; }
   .source-actions .button { max-width: 100%; white-space: normal; }
   .download-footnote { padding-left: var(--page-pad); padding-right: var(--page-pad); }
 }
+
+
+/* Téléchargement de préversion : distinguer clairement le paquet TEST des versions officielles. */
+.download-card-available { border-color: rgba(22,166,164,.45); box-shadow: 0 10px 30px rgba(16,42,86,.07); }
+.download-card-available .status-pill { background: var(--amber); color: var(--navy); }
+.download-cta { min-height: 46px; padding: 0 14px; gap: 8px; font-size: 12px; line-height: 1.3; text-align: center; }
+.download-card-available .download-cta { width: 100%; margin-top: auto; white-space: normal; }
+.platform-detail-card .download-cta { margin-top: 0; align-self: flex-start; }
+.test-warning { max-width: 900px; margin-top: 20px; padding: 15px 18px; border-left: 4px solid var(--amber); border-radius: 0 12px 12px 0; background: #fff1cf; color: #344457; font-size: 12px; line-height: 1.65; }
+.test-warning strong { color: var(--navy); }
+@media (max-width: 680px) {
+  .download-cta { width: 100%; white-space: normal; }
+  .test-warning { margin-top: 16px; padding: 14px; font-size: 11px; }
+}
